@@ -1,0 +1,19 @@
+
+.main {  
+    background-color: #000000a6;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .main p{
+    font-weight: 600; 
+    color: whitesmoke;  
+    font-size: .8rem;
+  }

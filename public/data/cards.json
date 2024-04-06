@@ -1,0 +1,315 @@
+[
+    {
+        "name": "web",
+        "tittle": "Web Full Stack",
+        "description": "Desarrollo de aplicaciones web full-stack con enfoque en Node.js y Next.js (React). Experiencia en implementación de API's, sockets y gestión eficiente de recursos. Bases de datos MongoDB y MySQL.",
+        "image": {
+            "url": "/resources/web/webcdt.png",
+            "alt": "webcdt",
+            "size": {
+                "w": 120,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/web/nodejs.svg",
+                "alt": "nodejs",
+                "size": {
+                    "w": 80,
+                    "h": 40
+                }
+            },
+            {
+                "url": "/resources/web/nextjs.svg",
+                "alt": "nextjs",
+                "size": {
+                    "w": 80,
+                    "h": 40
+                }
+            },
+            {
+                "url": "/resources/web/react.svg",
+                "alt": "react",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/web/weblogos.png",
+                "alt": "weblogos",
+                "size": {
+                    "w": 60,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/web/MongoDB.svg",
+                "alt": "MongoDB",
+                "size": {
+                    "w": 80,
+                    "h": 40
+                }
+            }
+        ]
+    },
+    {
+        "name": "PI",
+        "tittle": "PI OSISoft & Excel Vba",
+        "description": "Diseño de pantallas y gestión de bases de datos en entornos PI OSIsoft y Excel. Desarrollo de informes automáticos y libros con macros para el seguimiento del rendimiento de equipos.",
+        "image": {
+            "url": "/resources/pi/pi.png",
+            "alt": "electronic",
+            "size": {
+                "w": 120,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/excel/excel.png",
+                "alt": "excel",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/excel/vba.png",
+                "alt": "vba",
+                "size": {
+                    "w": 60,
+                    "h": 25
+                }
+            }
+        ]
+    },
+    {
+        "name": "Electrónic",
+        "tittle": "Electrónica & IoT",
+        "description": "Diseño de prototipos electrónicos abarcando hardware y software, con experiencia en el diseño de drivers, programación de microcontroladores y desarrollo de dispositivos IoT para la transmisión de datos ambientales.",
+        "image": {
+            "url": "/resources/electronica/electronic.jpg",
+            "alt": "electronic",
+            "size": {
+                "w": 120,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/electronica/MICROCHIP.svg",
+                "alt": "MICROCHIP",
+                "size": {
+                    "w": 70,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/electronica/ccs.jpg",
+                "alt": "ccs",
+                "size": {
+                    "w": 70,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/electronica/eagleCS.jpg",
+                "alt": "eagleCS",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/electronica/Multisim_logo.jpg",
+                "alt": "Multisim",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/electronica/C_Logo.png",
+                "alt": "C",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/electronica/SketchUp_logo.svg",
+                "alt": "SketchUp",
+                "size": {
+                    "w": 70,
+                    "h": 40
+                }
+            }
+        ]
+    },
+    {
+        "name": "IA",
+        "tittle": "Inteligencia Artificial",
+        "description": "Desarrollo de modelos neuronales utilizando TensorFlow y Keras, entrenados con datos reales para el análisis, contraste y optimización de parámetros de control.",
+        "image": {
+            "url": "/resources/ia/ia.png",
+            "alt": "ia",
+            "size": {
+                "w": 120,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/ia/tensorflow-text.svg",
+                "alt": "tensorflow",
+                "size": {
+                    "w": 60,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/ia/Keras_logo.svg",
+                "alt": "Keras",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/ia/python.svg",
+                "alt": "python",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            }
+        ]
+    },
+    {
+        "name": "Automation",
+        "tittle": "Automatización",
+        "description": "Diseño de sistemas de producción automatizados. Implementación de tecnologías de control y monitoreo. Proyecto para el paletizado mediante robótica industrial.",
+        "image": {
+            "url": "/resources/automatizacion/pneumaticstation.PNG",
+            "alt": "station",
+            "size": {
+                "w": 180,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/automatizacion/Siemens-logo.svg",
+                "alt": "Siemens",
+                "size": {
+                    "w": 70,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/automatizacion/winCC.png",
+                "alt": "winCC",
+                "size": {
+                    "w": 70,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/automatizacion/abb-robotstudio.jpg",
+                "alt": "robotstudio",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/automatizacion/c++logo.svg",
+                "alt": "c++",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            }
+        ]
+    },
+    {
+        "name": "unity",
+        "tittle": "Videojuegos 2D y 3D",
+        "description": "Desarrollo de juegos en Unity para proyectos personales y colaboración con empresas. Implementación de animaciones, hitboxes, y lógica necesaria mediante scipts en C#.",
+        "image": {
+            "url": "/resources/unity/unity.png",
+            "alt": "unity",
+            "size": {
+                "w": 120,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/unity/Unity_Technologies_logo.svg",
+                "alt": "unityLogo",
+                "size": {
+                    "w": 60,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/unity/Logo_C_sharp.svg",
+                "alt": "C_sharp",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/unity/Blender_logo_no_text.svg",
+                "alt": "Blender",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ethereum",
+        "tittle": "Smarts Contracts Ethereum",
+        "description": "Tokenizado de activos para su comercio, implementación y despliegue del contrato. Integración de la red Ethereum con HTTP a través de Provable® (anterior Oraclize®) para calcular el valor del token en tiempo real.",
+        "image": {
+            "url": "/resources/ethereum/scc1.png",
+            "alt": "scc",
+            "size": {
+                "w": 180,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/ethereum/ethereumLogo.svg",
+                "alt": "ethereum",
+                "size": {
+                    "w": 100,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/ethereum/SolidityLogo.svg",
+                "alt": "Solidity",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/ethereum/provable.webp",
+                "alt": "provable",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            }
+        ]
+    } 
+]

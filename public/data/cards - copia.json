@@ -1,0 +1,217 @@
+[
+    {
+        "name": "unity",
+        "tittle": "Videojuegos 2D y 3D",
+        "description": "Desarrollo de juegos en Unity para proyectos personales y colaboración con startup.",
+        "image": {
+            "url": "/resources/unity/unity.png",
+            "alt": "unity",
+            "size": {
+                "w": 120,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/unity/Unity_Technologies_logo.svg",
+                "alt": "unityLogo",
+                "size": {
+                    "w": 60,
+                    "h": 30
+                }
+            },
+            {
+                "url": "/resources/unity/Logo_C_sharp.svg",
+                "alt": "C_sharp",
+                "size": {
+                    "w": 30,
+                    "h": 30
+                }
+            },
+            {
+                "url": "/resources/unity/Blender_logo_no_text.svg",
+                "alt": "Blender",
+                "size": {
+                    "w": 30,
+                    "h": 30
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ethereum",
+        "tittle": "SmartContracts & Tokenizado de activos",
+        "description": "Tokenizado de activos para ser comercializados bajo la red de Ethereum",
+        "image": {
+            "url": "/resources/ethereum/scc1.png",
+            "alt": "scc",
+            "size": {
+                "w": 220,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/ethereum/ethereumLogo.svg",
+                "alt": "ethereum",
+                "size": {
+                    "w": 100,
+                    "h": 35
+                }
+            },
+            {
+                "url": "/resources/ethereum/SolidityLogo.svg",
+                "alt": "Solidity",
+                "size": {
+                    "w": 35,
+                    "h": 35
+                }
+            }
+        ]
+    },
+    {
+        "name": "IoT",
+        "tittle": "Servidores IoT",
+        "description": "Pequeños servidores IoT que sirven datos a través de wifi. Puede monitorizar diferentes parámetros físicos y enviarlos como respuesta o periódicamente para almacenar los datos",
+        "image": {
+            "url": "/resources/IoT/iotMovil.png",
+            "alt": "iot",
+            "size": {
+                "w": 70,
+                "h": 120
+            }
+        },
+        "icons": []
+    },
+    {
+        "name": "Automatización",
+        "tittle": "Automatización",
+        "description": "Diseño de sistemas de producción automatizados",
+        "image": {
+            "url": "/resources/automatizacion/pneumaticstation.PNG",
+            "alt": "station",
+            "size": {
+                "w": 180,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/automatizacion/Siemens-logo.svg",
+                "alt": "Siemens",
+                "size": {
+                    "w": 70,
+                    "h": 35
+                }
+            },
+            {
+                "url": "/resources/automatizacion/winCC.png",
+                "alt": "winCC",
+                "size": {
+                    "w": 70,
+                    "h": 35
+                }
+            },
+            {
+                "url": "/resources/automatizacion/abb-robotstudio.jpg",
+                "alt": "robotstudio",
+                "size": {
+                    "w": 35,
+                    "h": 35
+                }
+            },
+            {
+                "url": "/resources/automatizacion/c++logo.svg",
+                "alt": "c++",
+                "size": {
+                    "w": 35,
+                    "h": 35
+                }
+            }
+        ]
+    },
+    {
+        "name": "Electrónica",
+        "tittle": "Electrónica",
+        "description": "Diseño de prototipos para dispositivos dedicados",
+        "image": {
+            "url": "/resources/electronica/electronic.jpg",
+            "alt": "electronic",
+            "size": {
+                "w": 120,
+                "h": 120
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/electronica/MICROCHIP4.png",
+                "alt": "MICROCHIP",
+                "size": {
+                    "w": 70,
+                    "h": 35
+                }
+            },
+            {
+                "url": "/resources/electronica/eagleCS.jpg",
+                "alt": "eagleCS",
+                "size": {
+                    "w": 35,
+                    "h": 35
+                }
+            },
+            {
+                "url": "/resources/electronica/C_Logo.png",
+                "alt": "C",
+                "size": {
+                    "w": 35,
+                    "h": 35
+                }
+            },
+            {
+                "url": "/resources/electronica/SketchUp_logo.svg",
+                "alt": "SketchUp",
+                "size": {
+                    "w": 70,
+                    "h": 40
+                }
+            }
+        ]
+    },
+    {
+        "name": "PI OSISoft",
+        "tittle": "PI OSISoft",
+        "description": "Diseño de pantallas y administración bases de datos",
+        "image": {
+            "url": "/resources/pi/pi.png",
+            "alt": "electronic",
+            "size": {
+                "w": 120,
+                "h": 120
+            }
+        },
+        "icons": []
+    },
+    {
+        "name": "Excel",
+        "tittle": "Excel Vba",
+        "description": "Dashboard y reportes automáticos. Macros para seguimiento de equipos con grandes volúmenes de datosDashboard y reportes automáticos. Macros para seguimiento de equipos con grandes volúmenes de datosMacros para seguimiento de",
+        "image": {
+            "url": "/resources/excel/excel.png",
+            "alt": "electronic",
+            "size": {
+                "w": 120,
+                "h": 120
+            }
+        },
+        "icons": [            
+            {
+            "url": "/resources/excel/vba.png",
+            "alt": "C_sharp",
+            "size": {
+                "w": 100,
+                "h": 35
+            }
+        }
+    ]
+    }
+]

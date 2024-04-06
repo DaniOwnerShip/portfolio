@@ -1,0 +1,122 @@
+.main {
+    position: relative;
+    margin: 10px 0; 
+    padding: 7px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -5px #afafaf;
+}
+
+.main h3 { 
+    margin: 0;
+  }
+ 
+.container {    
+    background-color: #d3d3d3;
+    padding: 10px;
+    padding-top: 1px;
+    margin-top: 15px;
+    border-radius: 20px;
+    margin-left: 25px; 
+}
+
+.containerCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #3939aa9c;
+    border-radius: 10px;
+    border: 3px solid var(--triada-darkblue-color);
+    overflow: hidden;
+    position: relative;
+    max-height: 195px;
+    width: 48%;
+    min-width: 350px;
+    box-sizing: border-box;
+}
+
+.cardTittle {
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 3px;
+    background-color: #ffffffa6;
+}
+
+.cardTittle h4 {
+    margin: 0;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    padding-bottom: 0;
+}
+
+.cardBody {
+    display: flex;
+}
+
+.cardImage {
+    border: 1px solid #3939aa;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 10px 25px -10px #ffffff;
+}
+
+.description {
+    padding: 10px;
+    border: 1px solid #3939aa;
+    border-radius: 0px 32px;
+    box-shadow: 0px 10px 25px -10px #ffffff;
+    font-size: 0.75rem;
+    background-color: #000000;
+    color: #3bff00;
+}
+
+.cardLogos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 3px;
+}
+
+.cardLogos> :not(:first-child) {
+    margin-left: 7px;
+}
+
+
+.card .description p {
+    margin: 0;
+}
+
+
+.notes {
+    padding-top: 30px;
+    font-size: .6rem;
+}
+.mainb,
+.buttonExpand {
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    background-color: transparent;
+    border: none;
+    opacity: .5;
+}
+.mainb{ 
+    top: 9px; 
+}
+.buttonExpand:hover {
+    cursor: pointer;
+    scale: 1.3;
+    opacity: 1;
+}

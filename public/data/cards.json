@@ -2,7 +2,7 @@
     {
         "name": "web",
         "tittle": "Web Full Stack",
-        "description": "Desarrollo de aplicaciones web full-stack con enfoque en Node.js y Next.js (React). Experiencia en implementación de API's, sockets y gestión eficiente de recursos. Bases de datos MongoDB y MySQL.",
+        "description": "Desarrollo de aplicaciones web full-stack con enfoque en Node.js y Next.js (React). Implementación de API's, sockets y bases de datos MongoDB y MySQL.",
         "image": {
             "url": "/resources/web/webcdt.png",
             "alt": "webcdt",
@@ -88,7 +88,7 @@
     {
         "name": "Electrónic",
         "tittle": "Electrónica & IoT",
-        "description": "Diseño de prototipos electrónicos abarcando hardware y software, con experiencia en el diseño de drivers, programación de microcontroladores y desarrollo de dispositivos IoT para la transmisión de datos ambientales.",
+        "description": "Diseño de prototipos electrónicos abarcando hardware y software, con experiencia en diseño de drivers, programación de microcontroladores y desarrollo de dispositivos IoT para la transmisión de datos ambientales.",
         "image": {
             "url": "/resources/electronica/electronic.jpg",
             "alt": "electronic",
@@ -245,7 +245,7 @@
     {
         "name": "unity",
         "tittle": "Videojuegos 2D y 3D",
-        "description": "Desarrollo de juegos en Unity para proyectos personales y colaboración con empresas. Implementación de animaciones, hitboxes, y lógica necesaria mediante scipts en C#.",
+        "description": "Desarrollo de juegos en Unity para proyectos personales y colaboración con empresas. Implementación de clases de personajes, animaciones, hitboxes, y lógica necesaria mediante scipts en C#.",
         "image": {
             "url": "/resources/unity/unity.png",
             "alt": "unity",
@@ -286,7 +286,7 @@
         "tittle": "Smarts Contracts Ethereum",
         "description": "Tokenizado de activos para su comercio, implementación y despliegue del contrato. Integración de la red Ethereum con HTTP a través de Provable® (anterior Oraclize®) para calcular el valor del token en tiempo real.",
         "image": {
-            "url": "/resources/ethereum/scc1.png",
+            "url": "/resources/ethereum/SCCnet.png",
             "alt": "scc",
             "size": {
                 "w": 160,

@@ -8,7 +8,7 @@
 
 .lineAnim {
     position: absolute;
-    animation: lineAnimation 20s linear infinite;  
+    animation: lineAnimation 60s linear infinite;  
     border-radius: 20px;
 }
 

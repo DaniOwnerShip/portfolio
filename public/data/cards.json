@@ -7,29 +7,29 @@
             "url": "/resources/web/webcdt.png",
             "alt": "webcdt",
             "size": {
-                "w": 120,
-                "h": 120
+                "w": 110,
+                "h": 110
             }
         },
         "icons": [
             {
-                "url": "/resources/web/nodejs.svg",
+                "url": "/resources/web/nodejs.png",
                 "alt": "nodejs",
                 "size": {
-                    "w": 80,
-                    "h": 40
+                    "w": 60,
+                    "h": 25
                 }
             },
             {
-                "url": "/resources/web/nextjs.svg",
+                "url": "/resources/web/nextjs.png",
                 "alt": "nextjs",
                 "size": {
-                    "w": 80,
-                    "h": 40
+                    "w": 60,
+                    "h": 25
                 }
             },
             {
-                "url": "/resources/web/react.svg",
+                "url": "/resources/web/react.png",
                 "alt": "react",
                 "size": {
                     "w": 25,
@@ -40,16 +40,16 @@
                 "url": "/resources/web/weblogos.png",
                 "alt": "weblogos",
                 "size": {
-                    "w": 60,
+                    "w": 70,
                     "h": 25
                 }
             },
             {
-                "url": "/resources/web/MongoDB.svg",
+                "url": "/resources/web/MongoDB_Fores-Green.png",
                 "alt": "MongoDB",
                 "size": {
-                    "w": 80,
-                    "h": 40
+                    "w": 100,
+                    "h": 25
                 }
             }
         ]
@@ -62,8 +62,8 @@
             "url": "/resources/pi/pi.png",
             "alt": "electronic",
             "size": {
-                "w": 120,
-                "h": 120
+                "w": 110,
+                "h": 110
             }
         },
         "icons": [
@@ -79,7 +79,7 @@
                 "url": "/resources/excel/vba.png",
                 "alt": "vba",
                 "size": {
-                    "w": 60,
+                    "w": 90,
                     "h": 25
                 }
             }
@@ -93,16 +93,16 @@
             "url": "/resources/electronica/electronic.jpg",
             "alt": "electronic",
             "size": {
-                "w": 120,
-                "h": 120
+                "w": 110,
+                "h": 110
             }
         },
         "icons": [
             {
-                "url": "/resources/electronica/MICROCHIP.svg",
+                "url": "/resources/electronica/MICROCHIP.png",
                 "alt": "MICROCHIP",
                 "size": {
-                    "w": 70,
+                    "w": 90,
                     "h": 25
                 }
             },
@@ -139,11 +139,11 @@
                 }
             },
             {
-                "url": "/resources/electronica/SketchUp_logo.svg",
+                "url": "/resources/electronica/SketchUp_logo.png",
                 "alt": "SketchUp",
                 "size": {
                     "w": 70,
-                    "h": 40
+                    "h": 25
                 }
             }
         ]
@@ -156,16 +156,16 @@
             "url": "/resources/ia/ia.png",
             "alt": "ia",
             "size": {
-                "w": 120,
-                "h": 120
+                "w": 110,
+                "h": 110
             }
         },
         "icons": [
             {
-                "url": "/resources/ia/tensorflow-text.svg",
+                "url": "/resources/ia/tensorflow-text.png",
                 "alt": "tensorflow",
                 "size": {
-                    "w": 60,
+                    "w": 80,
                     "h": 25
                 }
             },
@@ -178,7 +178,7 @@
                 }
             },
             {
-                "url": "/resources/ia/python.svg",
+                "url": "/resources/ia/python.png",
                 "alt": "python",
                 "size": {
                     "w": 25,
@@ -195,14 +195,22 @@
             "url": "/resources/automatizacion/pneumaticstation.PNG",
             "alt": "station",
             "size": {
-                "w": 180,
-                "h": 120
+                "w": 160,
+                "h": 110
             }
         },
         "icons": [
             {
                 "url": "/resources/automatizacion/Siemens-logo.svg",
                 "alt": "Siemens",
+                "size": {
+                    "w": 70,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/automatizacion/ABB_Group-Logo.wine.svg",
+                "alt": "ABB",
                 "size": {
                     "w": 70,
                     "h": 25
@@ -242,8 +250,8 @@
             "url": "/resources/unity/unity.png",
             "alt": "unity",
             "size": {
-                "w": 120,
-                "h": 120
+                "w": 110,
+                "h": 110
             }
         },
         "icons": [
@@ -281,8 +289,8 @@
             "url": "/resources/ethereum/scc1.png",
             "alt": "scc",
             "size": {
-                "w": 180,
-                "h": 120
+                "w": 160,
+                "h": 110
             }
         },
         "icons": [
@@ -291,25 +299,48 @@
                 "alt": "ethereum",
                 "size": {
                     "w": 100,
-                    "h": 25
+                    "h": 30
                 }
             },
             {
                 "url": "/resources/ethereum/SolidityLogo.svg",
                 "alt": "Solidity",
                 "size": {
-                    "w": 25,
-                    "h": 25
+                    "w": 30,
+                    "h": 30
                 }
             },
             {
                 "url": "/resources/ethereum/provable.webp",
                 "alt": "provable",
                 "size": {
-                    "w": 25,
-                    "h": 25
+                    "w": 30,
+                    "h": 30
                 }
             }
         ]
-    } 
+    },
+    {
+        "name": "desktop",
+        "tittle": "Aplicaciones de escritorio",
+        "description": "Aplicaciones de escritorio para Windows desarrolladas en Visual Basic. Proyectos de pruebas, como 'cripters', conversor de unidades, sniffers de red, monitoreo de red (imagen izqda.) estilo Matrix mostrando paquetes reales",
+        "image": {
+            "url": "/resources/vbdesktop/matrix.png",
+            "alt": "scc",
+            "size": {
+                "w": 160,
+                "h": 110
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/vbdesktop/vb.jpg",
+                "alt": "vbdesktop",
+                "size": {
+                    "w": 60,
+                    "h": 30
+                }
+            }
+        ]
+    }
 ]

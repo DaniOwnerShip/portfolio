@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from 'react';
 
 export default function ProyectsCard({ card }) {
- 
+
     const [isExpanded, setIsExpanded] = useState(true);
 
     return (
@@ -19,8 +19,8 @@ export default function ProyectsCard({ card }) {
 
                 <div className={stylePD.cardContent} >
 
-                    <div className={stylePD.cardBody}>
 
+                    <div className={stylePD.cardDescription} >
                         <Image
                             className={stylePD.cardImage}
                             src={card.image.url}
@@ -28,15 +28,13 @@ export default function ProyectsCard({ card }) {
                             width={card.image.size.w}
                             height={card.image.size.h}
                         />
-                        <div className={stylePD.description} >
-                            <p>{card.description}</p>
-                        </div>
-
+                        <p>{card.description}</p>
                     </div>
 
                     <div className={stylePD.cardLogos} >
                         {card.icons.map((icon, ic) => (
                             <Image key={`card-icon-${ic}`}
+                                className={stylePD.cardIcon}
                                 src={icon.url}
                                 alt={icon.alt}
                                 width={icon.size.w}
@@ -44,6 +42,8 @@ export default function ProyectsCard({ card }) {
                             />
                         ))}
                     </div>
+
+
 
                 </div>
             }

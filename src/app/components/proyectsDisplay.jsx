@@ -16,7 +16,7 @@ export default function ProyectsDisplay() {
 
             <h3>⚙️ Proyectos y habilidades </h3>
 
-            <button type="button" className={stylePD.mainb} onClick={() => setIsExpanded(!isExpanded)}>  {`${isExpanded ? "➖" : "➕"}`}</button>
+            <button type="button" className={stylePD.buttonExpandM} onClick={() => setIsExpanded(!isExpanded)}>  {`${isExpanded ? "➖" : "➕"}`}</button>
 
             {isExpanded && 
             

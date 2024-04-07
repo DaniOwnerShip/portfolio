@@ -15,7 +15,7 @@ export default function About() {
         <>
             <div className={styleAbout.main} >
 
-                <h3>👋 Presentación </h3>
+                <h3>👋 Presentación{!isExpanded && ` Daniel Orcha` }</h3>
 
                 <button type="button" className={styleAbout.buttonExpand} onClick={() => setIsExpanded(!isExpanded)}>  {`${isExpanded ? "➖" : "➕"}`}</button>
              

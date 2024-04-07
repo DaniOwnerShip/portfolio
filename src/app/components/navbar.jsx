@@ -10,7 +10,6 @@ export default function Navbar() {
 
 
         <div className={styleNavbar.main} >
-            <p>Contacto [no disponible]</p>
 
             <Link href="https://github.com/DaniOwnerShip/portfolio.git">
                 <div style={{ cursor: 'pointer' }}>
@@ -23,6 +22,7 @@ export default function Navbar() {
                 </div>
             </Link>
 
+            <p>Contacto [próximamente]</p> 
 
         </div>
 

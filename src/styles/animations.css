@@ -1,5 +1,5 @@
 :root {
-    --line-size: 4px;
+    --line-size: 3px;
 }
 
 .main {
@@ -8,7 +8,7 @@
 
 .lineAnim {
     position: absolute;
-    animation: lineAnimation 60s linear infinite;  
+    animation: lineAnimation 20s linear infinite;  
     border-radius: 20px;
 }
 

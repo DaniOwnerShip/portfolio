@@ -1,6 +1,6 @@
 
 .main {  
-    background-color: #ff5700cc;   
+    background-color: #000000a6;
     height: 35px;
     width: 100%;
     position: fixed;
@@ -16,9 +16,19 @@
 .main p{   
   margin: 0 26px;
   font-weight: 700;
+}
+
+.contactBtn{
   border: 1px solid #000000;
   padding: 4px;
-  border-radius: 5px;
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.github{
+  filter: invert(1);
+  cursor: pointer; 
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 700px) {

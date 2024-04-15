@@ -6,21 +6,30 @@ import Logo from "@/app/components/logo"
 import styles from "./page.module.css";
 import "@/styles/animations.css";
 import "@/styles/scrollbar.css"
+import {run} from "@/api/mongoClient.mjs"
 
+async function getData() { 
+  try {
+    const res = await run();
+    console.log(" la consulta:", res[0].data); 
+    return res[0].data; 
+  } catch (error) {
+    window.alert(`❌ ${error.message}`);
+    return null; // Otra opción es lanzar el error para manejarlo más adelante
+  }
+}
 
-export default function Home() {
-
-  return ( 
-    <div className="main">
-      <Navbar />
+export default async function Home() {
+  const data = await getData();
+  
+  return (
+    <main className={styles.main}>
+      <Navbar data={data}/>
       <Logo />
-      <main className={styles.main}>
-        <div className="lineAnim"></div>
-        <About />
-        <ProyectsDisplay />
-      </main>
+      <div className="lineAnim"></div>
+      <About />
+      <ProyectsDisplay />
       <Footer />
-    </div>
+    </main>
   );
-
 }

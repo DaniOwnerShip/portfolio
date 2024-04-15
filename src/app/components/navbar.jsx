@@ -1,10 +1,20 @@
-
+"use client"
 import styleNavbar from "@/styles/navbar.module.css"
 import Image from "next/image";
 import Link from 'next/link';
 
+import { useRef } from 'react';
 
-export default function Navbar() {
+
+export default function Navbar({ data }) {
+ 
+    const mydataRef = useRef(data);
+
+    const clickData = () => {
+        const email = mydataRef.current.email;
+        const phone = mydataRef.current.phone;
+        window.alert(`📧 correo: ${email}\n📞 teléfono: ${phone}`);
+    }
 
     return (
 
@@ -12,17 +22,20 @@ export default function Navbar() {
         <div className={styleNavbar.main} >
 
             <Link href="https://github.com/DaniOwnerShip/portfolio.git">
-                <div style={{ cursor: 'pointer' }}>
-                    <Image
-                        src='/resources/GitHub.svg'
-                        alt="logo"
-                        width={35}
-                        height={35}
-                    />
-                </div>
+                <Image
+                    className={styleNavbar.github}
+                    src='/resources/GitHub.svg'
+                    alt="logo"
+                    width={35}
+                    height={35}
+                />
             </Link>
-
-            <p>Contacto [próximamente]</p> 
+            <button className={styleNavbar.contactBtn}
+                type="button"
+                onClick={clickData}
+            >
+                <p>Contacto ☎️</p>
+            </button>
 
         </div>
 

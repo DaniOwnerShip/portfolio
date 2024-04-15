@@ -7,10 +7,11 @@
   padding-right: 50px;
   display: flex;
   flex-direction: column; 
-  background-color: whitesmoke;    
+  background-color: rgb(54, 54, 54);    
   border-radius: 20px;
   position: relative;
-  overflow: hidden;
+  overflow: hidden;    
+  box-shadow: 0px 0px 30px -5px #3bff008c;
 }
 
  

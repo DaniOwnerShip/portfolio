@@ -14,7 +14,7 @@ async function getData() {
     const res = await getdbdata(); 
     return res[0].data; 
   } catch (e) {
-    return {}; 
+    console.error(e);
   }
 }
 

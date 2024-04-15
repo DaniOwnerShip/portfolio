@@ -2,9 +2,7 @@
 
 .main {  
   max-width: 1000px;
-  margin: 60px auto 40px auto ;
-  padding: 25px;
-  padding-right: 50px;
+  margin: 60px auto; 
   display: flex;
   flex-direction: column; 
   background-color: rgb(54, 54, 54);    

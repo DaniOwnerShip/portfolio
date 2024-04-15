@@ -1,7 +1,7 @@
 .main {
-    position: relative;
-    margin: 10px 0;
-    padding: 7px;
+    position: relative; 
+    margin: 10px;
+    padding: 10px; 
     border-radius: 20px;
     box-shadow: 0px 0px 15px -5px #afafaf;
     background-color: whitesmoke;   
@@ -12,11 +12,8 @@
 }
 
 .container { 
-    padding: 10px;
-    padding-top: 1px;
-    margin-top: 15px;
-    border-radius: 20px;
-    margin-left: 25px;
+    padding: 10px; 
+    margin-left: 20px;
 }
 
 .containerCards {
@@ -108,7 +105,7 @@
 }
 
 .buttonExpandM {
-    top: 9px;
+    top: 12px;
 }
 
 .buttonExpandM:hover,

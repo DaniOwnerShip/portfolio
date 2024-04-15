@@ -6,15 +6,14 @@ import Logo from "@/app/components/logo"
 import styles from "./page.module.css";
 import "@/styles/animations.css";
 import "@/styles/scrollbar.css"
-import {run} from "@/api/mongoClient.mjs"
+import {getdbdata} from "@/api/mongoClient.mjs"
 
 async function getData() { 
   try {
-    const res = await run(); 
+    const res = await getdbdata(); 
     return res[0].data; 
-  } catch (error) {
-    window.alert(`❌ ${error.message}`);
-    return null; // Otra opción es lanzar el error para manejarlo más adelante
+  } catch (e) {
+    return window.alert(`❌ ${e.message}`); 
   }
 }
 

@@ -10,8 +10,7 @@ import {run} from "@/api/mongoClient.mjs"
 
 async function getData() { 
   try {
-    const res = await run();
-    console.log(" la consulta:", res[0].data); 
+    const res = await run(); 
     return res[0].data; 
   } catch (error) {
     window.alert(`❌ ${error.message}`);

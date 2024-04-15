@@ -1,3 +1,4 @@
+"use server"
 import About from "@/app/components/about"
 import ProyectsDisplay from "@/app/components/proyectsDisplay"
 import Navbar from "@/app/components/navbar"
@@ -13,7 +14,7 @@ async function getData() {
     const res = await getdbdata(); 
     return res[0].data; 
   } catch (e) {
-    return window.alert(`❌ ${e.message}`); 
+    return {}; 
   }
 }
 

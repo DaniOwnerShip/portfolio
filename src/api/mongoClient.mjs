@@ -15,11 +15,10 @@ export const getdbdata = async () => {
     
     const result = await collection.find({}).toArray(); 
     
-    await client.close();
+    // await client.close();
 
     return result;
   } 
-
   catch (e) { 
     throw e;  
   }

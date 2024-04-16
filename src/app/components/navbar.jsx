@@ -7,7 +7,7 @@ import { useRef } from 'react';
 
 
 export default function Navbar({ data }) {
- 
+
     const mydataRef = useRef(data);
 
     const clickData = () => {
@@ -30,12 +30,15 @@ export default function Navbar({ data }) {
                     height={35}
                 />
             </Link>
-            <button className={styleNavbar.contactBtn}
+
+            <button
+                className={styleNavbar.contactBtn}
                 type="button"
                 onClick={clickData}
             >
-                <p>Contacto ☎️</p>
+                Contacto ☎️
             </button>
+
 
         </div>
 

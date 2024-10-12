@@ -11,8 +11,8 @@ export default function Navbar({ data }) {
     const mydataRef = useRef(data);
 
     const clickData = () => {
-        const email = mydataRef.current.emaild ? mydataRef.current.email : "something went wrong";
-        const phone = mydataRef.current.phoned ? mydataRef.current.phone : "something went wrong"; 
+        const email = mydataRef.current.email ? mydataRef.current.email : "something went wrong";
+        const phone = mydataRef.current.phone ? mydataRef.current.phone : "something went wrong"; 
         window.alert(`📧 correo: ${email}\n📞 teléfono: ${phone}`);
     }
     

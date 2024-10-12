@@ -24,7 +24,7 @@ export default function About() {
 
                     <section className={styleAbout.container} >
 
-                        <h2>¡Hola! Soy Daniel Orcha, desarrollador de software, prototipos electrónicos y sistemas automatizados.</h2>
+                        <h2>¡Hola! Soy Daniel Orcha, desarrollador de software, hardware y sistemas automatizados.</h2>
 
   
                             <Image
@@ -35,7 +35,7 @@ export default function About() {
                                 height={130}
                             /> 
                         <p>
-                            Titulado como Técnico Especialista en Electricidad y Electrónica (FPII), con Postgrado en Automatización Industrial (UCAV), mi interés por la tecnología despertó desde muy pequeño,
+                            Titulado como Técnico Especialista en Electricidad y Electrónica (FPII) con Postgrado en Automatización Industrial (UCAV), mi interés por la tecnología despertó desde muy pequeño,
                             cuando comencé a explorar la programación en un ZX Spectrum, copiando y modificando ejemplos de códigos del manual.
                         </p>
                         <p>
@@ -45,8 +45,8 @@ export default function About() {
                             tipos de tecnologías y lenguajes de programación.
                         </p>
                         <p>
-                            Profesionalmente, me desempeño como Operador de Control en una Planta Termosolar, donde también aplico mis habilidades de programación en mejoras de lógica, diseño de pantallas PI
-                            y gestión de bases de datos (PI Points). Además, he desarrollado herramientas como libros Excel para seguimiento de equipos con grandes volúmenes de datos, reportes automáticos
+                            Profesionalmente, me desempeño como operador en sala de control y mantenimiento en entornos industriales; también aplico mis habilidades de programación en mejoras de lógica, diseño de pantallas PI
+                            y administrador de bases de datos. Además, he desarrollado herramientas como libros Excel para seguimiento de equipos con grandes volúmenes de datos, reportes automáticos
                             y aplicaciones web cliente-servidor para digitalización de informes y recopilación de datos de campo.
                         </p>
                         <p>

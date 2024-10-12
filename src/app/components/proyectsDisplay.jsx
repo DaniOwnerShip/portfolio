@@ -24,9 +24,8 @@ export default function ProyectsDisplay() {
 
                     <p>
                         Resumen de algunos proyecto y habilidades, junto con las principales tecnologías utilizadas.
-                        Algunos proyectos no pueden mostrarse debido a confidencialidad o pérdida.
-                        Puede ver más imágenes <Link href="/pages/galleryImgs"> aquí</Link>
-                        . Si desea más información, puede obtener el contacto en la barra superior.
+                        Algunos proyectos interesantes se perdieron, si deseas más detalles puede usar el botón de contacto en la parte superior, también
+                        puede ver algunas imágenes <Link href="/pages/galleryImgs"> aquí</Link>.
                     </p> 
 
                     <div className={stylePD.containerCards}>

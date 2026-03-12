@@ -3,6 +3,10 @@
         "name": "web",
         "tittle": "Web Full Stack",
         "description": "Desarrollo de aplicaciones web full-stack con enfoque en Node.js y Next.js (React). Implementación de API's, sockets y bases de datos MongoDB y MySQL.",
+        "git": [
+            "https://github.com/DaniOwnerShip/dataCenter.git",
+            "https://github.com/DaniOwnerShip/serverCDT.git"
+        ],
         "image": {
             "url": "/resources/web/webcdt.png",
             "alt": "webcdt",
@@ -55,12 +59,15 @@
         ]
     },
     {
-        "name": "PI",
-        "tittle": "PI OSISoft & Excel Vba",
-        "description": "Diseño de pantallas y gestión de bases de datos en entornos PI OSIsoft y Excel. Desarrollo de informes automáticos y libros con macros para el seguimiento del rendimiento de equipos.",
+        "name": "electron",
+        "tittle": "SCADA Línea producción",
+        "description": "Aplicación de escritorio en Electron para visualizar y controlar una línea de producción con PLCs vía Modbus.",
+        "git": [
+            "https://github.com/DaniOwnerShip/SCADATest.git"
+        ],
         "image": {
-            "url": "/resources/pi/pi.png",
-            "alt": "electronic",
+            "url": "/resources/mb/electron.gif",
+            "alt": "webcdt",
             "size": {
                 "w": 110,
                 "h": 110
@@ -68,18 +75,93 @@
         },
         "icons": [
             {
-                "url": "/resources/excel/excel.png",
-                "alt": "excel",
+                "url": "/resources/web/electronlogo.png",
+                "alt": "nodejs",
+                "size": {
+                    "w": 30,
+                    "h": 30
+                }
+            },
+            {
+                "url": "/resources/web/nodejs.png",
+                "alt": "nodejs",
+                "size": {
+                    "w": 60,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/web/nextjs.png",
+                "alt": "nextjs",
+                "size": {
+                    "w": 60,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/web/react.png",
+                "alt": "react",
                 "size": {
                     "w": 25,
                     "h": 25
                 }
             },
             {
-                "url": "/resources/excel/vba.png",
-                "alt": "vba",
+                "url": "/resources/web/weblogos.png",
+                "alt": "weblogos",
                 "size": {
-                    "w": 90,
+                    "w": 70,
+                    "h": 25
+                }
+            }
+        ]
+    },
+    {
+        "name": "PLC Gateway",
+        "tittle": "PLC Gateway Web – Full-Stack Industrial",
+        "description": "Interfaz web en Node.js y Next.js para monitorizar y controlar PLCs en tiempo real mediante polling.",
+        "git": [
+            "https://github.com/DaniOwnerShip/client-modbus.git",
+            "https://github.com/DaniOwnerShip/server-modbus.git"
+        ],
+        "image": {
+            "url": "/resources/mb/modbus.jpg",
+            "alt": "modbus",
+            "size": {
+                "w": 110,
+                "h": 110
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/web/nodejs.png",
+                "alt": "nodejs",
+                "size": {
+                    "w": 60,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/web/nextjs.png",
+                "alt": "nextjs",
+                "size": {
+                    "w": 60,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/web/react.png",
+                "alt": "react",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/web/weblogos.png",
+                "alt": "weblogos",
+                "size": {
+                    "w": 70,
                     "h": 25
                 }
             }
@@ -87,8 +169,11 @@
     },
     {
         "name": "Electrónic",
-        "tittle": "Electrónica & IoT",
-        "description": "Diseño de prototipos electrónicos abarcando hardware y software, con experiencia en diseño de drivers, programación de microcontroladores y desarrollo de dispositivos IoT para la transmisión de datos ambientales.",
+        "tittle": "IoT & Embedded",
+        "description": "Creación de prototipos electrónicos y dispositivos IoT, desde hardware hasta software, incluyendo programación de microships PIC y transmisión de datos ambientales.",
+        "git": [
+            "https://github.com/DaniOwnerShip/LegacyProjectsMicrochips.git"
+        ],
         "image": {
             "url": "/resources/electronica/electronic.jpg",
             "alt": "electronic",
@@ -149,9 +234,37 @@
         ]
     },
     {
+        "name": "PI",
+        "tittle": "PI OSISoft / AVEVA",
+        "description": "Diseño de pantallas de planta para monitorización en tiempo real y cálculo de parámetros de proceso. Administrador de base de datos de tags de instrumentación.",
+        "git": [],
+        "image": {
+            "url": "/resources/pi/pi.png",
+            "alt": "electronic",
+            "size": {
+                "w": 110,
+                "h": 110
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/pi/pilogo.jpg",
+                "alt": "excel",
+                "size": {
+                    "w": 100,
+                    "h": 30
+                }
+            }
+        ]
+    },
+    {
         "name": "IA",
         "tittle": "Inteligencia Artificial",
-        "description": "Desarrollo de modelos neuronales utilizando TensorFlow y Keras, entrenados con datos reales para el análisis, contraste y optimización de parámetros de control.",
+        "description": "Modelos neuronales con TensorFlow/Keras. Experimentos de predicción de caudal a partir de datos reales y clasificación de imágenes (perro vs comida).",
+        "git": [
+            "https://github.com/DaniOwnerShip/AIImageClassifier.git",
+            "https://github.com/DaniOwnerShip/KerasModel.git"
+        ],
         "image": {
             "url": "/resources/ia/ia.png",
             "alt": "ia",
@@ -189,8 +302,9 @@
     },
     {
         "name": "Automation",
-        "tittle": "Automatización",
-        "description": "Diseño de sistemas de producción automatizados. Implementación de tecnologías de control y monitoreo. Proyecto para el paletizado mediante robótica industrial.",
+        "tittle": "Automatización Industrial",
+        "description": "Diseño e implementación de sistemas automatizados: dimensionado de equipos, definición de ecuaciones lógicas para automatismos, integración de tecnologías de control y sistemas de monitoreo.",
+        "git": [],
         "image": {
             "url": "/resources/automatizacion/pneumaticstation.PNG",
             "alt": "station",
@@ -243,9 +357,76 @@
         ]
     },
     {
+        "name": "RobotStudio",
+        "tittle": "Robótica Industrial",
+        "description": "Proyecto de clasificación y paletizado de cajas mediante robot industrial KUKA IRB 2400.",
+        "git": [
+            "https://github.com/DaniOwnerShip/ABBRobot.git"
+        ],
+        "image": {
+            "url": "/resources/automatizacion/r2.jpg",
+            "alt": "station",
+            "size": {
+                "w": 160,
+                "h": 110
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/automatizacion/ABB_Group-Logo.wine.svg",
+                "alt": "ABB",
+                "size": {
+                    "w": 70,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/automatizacion/abb-robotstudio.jpg",
+                "alt": "robotstudio",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            }
+        ]
+    },
+    {
+        "name": "Vba",
+        "tittle": "Excel Vba",
+        "description": "Libros Excel con macros para seguimiento de equipos, desviaciones, control químico, índices de producción y generación automática de informes.",
+        "git": [],
+        "image": {
+            "url": "/resources/excel/excel.png",
+            "alt": "electronic",
+            "size": {
+                "w": 110,
+                "h": 110
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/excel/excel.png",
+                "alt": "excel",
+                "size": {
+                    "w": 25,
+                    "h": 25
+                }
+            },
+            {
+                "url": "/resources/excel/vba.png",
+                "alt": "vba",
+                "size": {
+                    "w": 90,
+                    "h": 25
+                }
+            }
+        ]
+    },
+    {
         "name": "unity",
         "tittle": "Videojuegos 2D y 3D",
-        "description": "Desarrollo de juegos en Unity para proyectos personales y colaboración con empresas. Implementación de clases de personajes, animaciones, hitboxes, y lógica necesaria mediante scipts en C#.",
+        "description": "Desarrollo de juegos en Unity, creando personajes, animaciones, hitboxes y lógica de juego mediante C#",
+        "git": [],
         "image": {
             "url": "/resources/unity/unity.png",
             "alt": "unity",
@@ -285,6 +466,7 @@
         "name": "Ethereum",
         "tittle": "Smarts Contracts Ethereum",
         "description": "Tokenizado de activos para su comercio, implementación y despliegue del contrato. Integración de la red Ethereum con HTTP a través de Provable® (anterior Oraclize®) para calcular el valor del token en tiempo real.",
+        "git": [],
         "image": {
             "url": "/resources/ethereum/SCCnet.png",
             "alt": "scc",
@@ -322,8 +504,9 @@
     },
     {
         "name": "desktop",
-        "tittle": "Aplicaciones de escritorio",
-        "description": "Aplicaciones de escritorio para Windows desarrolladas en Visual Basic. Proyectos de pruebas, como 'cripters', conversor de unidades, sniffers de red, monitoreo de red (imagen izqda.) estilo Matrix mostrando paquetes reales",
+        "tittle": "Visual Basic, C++",
+        "description": "Herramientas de escritorio para Windows en Visual Basic: conversores, utilidades de monitorización y análisis de red, con visualización estilo Matrix de paquetes en tiempo real.",
+        "git": [],
         "image": {
             "url": "/resources/vbdesktop/matrix.png",
             "alt": "scc",
@@ -338,6 +521,14 @@
                 "alt": "vbdesktop",
                 "size": {
                     "w": 60,
+                    "h": 30
+                }
+            },
+            {
+                "url": "/resources/vbdesktop/c.png",
+                "alt": "c",
+                "size": {
+                    "w": 30,
                     "h": 30
                 }
             }

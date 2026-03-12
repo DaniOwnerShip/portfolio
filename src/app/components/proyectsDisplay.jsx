@@ -1,7 +1,6 @@
 "use client"
-
 import stylePD from "@/styles/proyectsDisplay.module.css"
-import cardsData from '../../../public/data/cards.json';
+import cardsData from '@/data/cards.json';
 import ProyectsCard from './proyectsCard';
 import { useState } from 'react';
 import Link from 'next/link';
@@ -31,7 +30,6 @@ export default function ProyectsDisplay() {
                     <div className={stylePD.containerCards}>
 
                         {cardsData.map((card, i) => (
-
 
                             <div key={`card-${i}`} className={stylePD.card}>
 

@@ -3,7 +3,7 @@
     /* margin: 10px; */
     padding: 10px;
     border-radius: 0px 0px 20px 20px;
-    border: 1px solid #000000; 
+    border: 1px solid #000000;
     background-color: whitesmoke;
 }
 
@@ -11,8 +11,8 @@
     margin: 0;
 }
 
-.container { 
-    padding: 10px; 
+.container {
+    padding: 10px;
     margin-left: 20px;
 }
 
@@ -51,6 +51,12 @@
     display: flex;
     flex-direction: column;
 }
+
+
+.cardContent a {
+    color: whitesmoke; 
+}
+
 
 .cardDescription {
     background-color: #000000;

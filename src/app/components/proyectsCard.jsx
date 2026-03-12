@@ -28,7 +28,17 @@ export default function ProyectsCard({ card }) {
                             width={card.image.size.w}
                             height={card.image.size.h}
                         />
+
                         <p>{card.description}</p>
+
+                        {card.git?.map((url, i) => (
+                            <div key={i}>
+                                <a href={url} target="_blank" rel="noopener noreferrer">
+                                    Repo GIT {i + 1}
+                                </a>
+                            </div>
+                        ))}
+
                     </div>
 
                     <div className={stylePD.cardLogos} >

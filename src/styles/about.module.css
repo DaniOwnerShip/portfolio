@@ -4,7 +4,7 @@
   /* margin-bottom: -10px; */
   padding: 10px;
   border-radius: 20px 20px 0px 0px;
-  border: 1px solid #000000; 
+  border: 1px solid #000000;
   background-color: whitesmoke;
 }
 
@@ -13,13 +13,18 @@
 }
 
 
-.container { 
-  padding: 10px; 
+.container {
+  padding: 10px;
   margin-left: 20px;
 }
 
 .container h2 {
   color: var(--triada-base-color);
+}
+
+.container h3 {
+  color: rgb(97, 97, 97);
+  font-style: oblique;
 }
 
 .container p {

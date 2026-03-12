@@ -36,21 +36,28 @@ export default function About() {
                         />
                         <h2>💻 ADN Tecnológico: Del Bit al Cloud.</h2>
 
-                        <h1 style={{ display: "inline" }}>+15</h1>  <span>  Años de experiencia en el sector. Backup ingeniero de software y desarrollador en Nextera Energy España. Postgrado en Automatización Industrial.
+                        <h1 style={{ display: "inline" }}>+15</h1>
+                        <span>
+                            Años de experiencia en el sector. Backup del ingeniero de software y colaborador en desarrollo en Nextera Energy España y SaetaYield. Postgrado en Automatización Industrial.
                             Autodidacta en programación desde la infancia.
                         </span>
+
                         <p>
-                            Un ZX Spectrum, juegos eternos de cargar para lanzar error y un manual con códigos extraños fue mi primer contacto con la computación. Analizar y modificar los códigos de
-                            ejemplos se convirtió más divertido que los juegos, entendiendo cada vez más los programas e influenciado por el espíritu exploratorio de los primeros entornos informáticos y películas de hackers de la época, despertaron en mí el interés por descifrar los secretos de la computación.
-                        </p>
-                        <p>
-                            Desde entonces, he explorado un amplio abanico de tecnologías: <strong>microcontroladores y manipulación de bits en C/C++, POO, desarrollo de videojuegos, aplicaciones de escritorio
-                            </strong>, y <strong>ecosistemas web full-stack</strong>, inteligencia artificial, incluso algunos ejercicios con Qbits. Esta trayectoria me ha permitido desarrollar una visión completa del software,
-                            desde el hardware más cercano al sensor hasta soluciones escalables e integradas, aplicando principios de <strong>Industria 4.0 </strong>
-                            y digitalización de procesos industriales.
+                            Un ZX Spectrum, juegos eternos cargando para terminar en error y un manual con códigos extraños fue mi primer contacto con la computación.
+                            Analizar y modificar los ejemplos del manual terminó siendo más divertido que los propios juegos. A medida que entendía mejor los programas,
+                            el espíritu exploratorio de los primeros entornos informáticos y la cultura tecnológica de la época despertaron en mí el interés por
+                            descifrar cómo funcionan realmente los sistemas.
                         </p>
 
-                        <h3>-Cerrando la brecha entre lo físico y lo digital-</h3>
+                        <p>
+                            Desde entonces he explorado un amplio abanico de tecnologías:
+                            <strong>microcontroladores y manipulación de bits en C/C++, POO, desarrollo de videojuegos, aplicaciones de escritorio</strong>,
+                            y <strong>ecosistemas web full-stack</strong>, inteligencia artificial, e incluso algunos ejercicios con <strong>qubits</strong>.
+                            Esta trayectoria me ha permitido desarrollar una visión completa del software, desde el hardware más cercano al sensor
+                            hasta soluciones escalables e integradas, aplicando principios de <strong>Industria 4.0</strong> y digitalización de procesos industriales.
+                        </p>
+
+                        <h3>- Cerrando la brecha entre lo físico y lo digital -</h3>
                     </section>
 
                     <br />

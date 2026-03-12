@@ -16,13 +16,15 @@ Este portfolio reúne algunos de mis proyectos personales y profesionales relaci
 
 La interfaz tiene un estilo visual inspirado en entornos tecnológicos e industriales, con una estética tipo terminal/Matrix y elementos gráficos relacionados con electrónica, automatización y programación.
 
+![portfolio](https://github.com/user-attachments/assets/26f3bde2-f34e-4f4d-94f8-db66b63576a6)
+
 ## Tecnologías
 
 - React
 - Next.js
 - JavaScript
 - CSS Modules
-- Node.js
+- MongoDB
 
 ## Características
 

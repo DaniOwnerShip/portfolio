@@ -38,27 +38,20 @@ export default function About() {
 
                         <h1 style={{ display: "inline" }}>+15</h1>
                         <span>
-                            Años de experiencia en el sector. Especialista en sistemas de control y backup del ingeniero de software en Nextera Energy España y SaetaYield. Postgrado en Automatización Industrial. Autodidacta en programación desde la infancia.
+                            Años de experiencia en el sector. Especialista en sistemas de control y soporte al ingeniero de software en Nextera Energy y SaetaYield. Con un Postgrado en Automatización Industrial y una curiosidad inagotable, soy autodidacta en programación desde la infancia.
                         </span>
-
                         <p>
-                            Mi historia con la programación comenzó de niño con un ZX Spectrum. Juegos cargando eternamente para terminar en error y un manual con códigos extraños fueron mi primer contacto con la computación. Analizar y modificar los ejemplos del manual terminó siendo más divertido que los propios juegos. A medida que entendía mejor los programas, el espíritu exploratorio de los primeros entornos informáticos y la cultura tecnológica de la época despertaron en mí el interés por descifrar cómo funcionan realmente los sistemas.
+                            Mi historia comenzó con un ZX Spectrum. Juegos que tardaban una eternidad en cargar para terminar en error y un manual con códigos extraños fueron mi primer contacto con la computación. Analizar y modificar los ejemplos del manual terminó siendo mucho más divertido que jugar. Ese espíritu exploratorio de los primeros entornos informáticos despertó en mí la necesidad de descifrar cómo funcionan realmente los sistemas.
+                        </p>
+                        <p>
+                            A lo largo de mi trayectoria he trabajado en automatización industrial y sistemas de control, incluyendo programación de PLCs (ABB, Siemens, Schneider) y desarrollo de sistemas SCADA/HMI (ABB, WinCC, Ignition).
+                        </p>
+                        <p>
+                            En paralelo, he explorado un amplio abanico de tecnologías: desde microcontroladores y manipulación de bits en C/C++, hasta POO, desarrollo de videojuegos, aplicaciones de escritorio, ecosistemas web full-stack, inteligencia artificial, e incluso algunos ejercicios con qubits. Esta trayectoria me ha permitido desarrollar una visión completa del software: desde el hardware más cercano al sensor hasta soluciones escalables e integradas, aplicando siempre principios de Industria 4.0 y digitalización.
                         </p>
 
-                        <p>
-                            A lo largo de mi trayectoria profesional he trabajado en <strong>automatización industrial y sistemas de control</strong>, incluyendo
-                            <strong>programación de PLCs (ABB, Siemens, Schneider)</strong> y desarrollo de <strong>sistemas SCADA/HMI</strong> con tecnologías como
-                            <strong>ABB, WinCC e Ignition</strong>.
-                        </p>
+                        <h3>- Cerrando la brecha entre lo físico y lo digital - </h3>
 
-                        <p>
-                            En paralelo, he explorado un amplio abanico de tecnologías:
-                            <strong>microcontroladores y manipulación de bits en C/C++, POO, desarrollo de videojuegos, aplicaciones de escritorio</strong>,
-                            <strong>ecosistemas web full-stack</strong>, inteligencia artificial, e incluso algunos ejercicios con <strong>qubits</strong>.
-                            Esta trayectoria me ha permitido desarrollar una visión completa del software, desde el hardware más cercano al sensor hasta soluciones escalables e integradas, aplicando principios de <strong>Industria 4.0</strong> y digitalización de procesos industriales.
-                        </p>
-
-                        <h3>- Cerrando la brecha entre lo físico y lo digital -</h3>
                     </section>
 
                     <br />

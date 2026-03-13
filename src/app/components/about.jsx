@@ -38,23 +38,24 @@ export default function About() {
 
                         <h1 style={{ display: "inline" }}>+15</h1>
                         <span>
-                            Años de experiencia en el sector. Backup del ingeniero de software y colaborador en desarrollo en Nextera Energy España y SaetaYield. Postgrado en Automatización Industrial.
-                            Autodidacta en programación desde la infancia.
+                            Años de experiencia en el sector. Especialista en sistemas de control y backup del ingeniero de software en Nextera Energy España y SaetaYield. Postgrado en Automatización Industrial. Autodidacta en programación desde la infancia.
                         </span>
 
                         <p>
-                            Un ZX Spectrum, juegos eternos cargando para terminar en error y un manual con códigos extraños fue mi primer contacto con la computación.
-                            Analizar y modificar los ejemplos del manual terminó siendo más divertido que los propios juegos. A medida que entendía mejor los programas,
-                            el espíritu exploratorio de los primeros entornos informáticos y la cultura tecnológica de la época despertaron en mí el interés por
-                            descifrar cómo funcionan realmente los sistemas.
+                            Mi historia con la programación comenzó de niño con un ZX Spectrum. Juegos cargando eternamente para terminar en error y un manual con códigos extraños fueron mi primer contacto con la computación. Analizar y modificar los ejemplos del manual terminó siendo más divertido que los propios juegos. A medida que entendía mejor los programas, el espíritu exploratorio de los primeros entornos informáticos y la cultura tecnológica de la época despertaron en mí el interés por descifrar cómo funcionan realmente los sistemas.
                         </p>
 
                         <p>
-                            Desde entonces he explorado un amplio abanico de tecnologías:
+                            A lo largo de mi trayectoria profesional he trabajado en <strong>automatización industrial y sistemas de control</strong>, incluyendo
+                            <strong>programación de PLCs (ABB, Siemens, Schneider)</strong> y desarrollo de <strong>sistemas SCADA/HMI</strong> con tecnologías como
+                            <strong>ABB, WinCC e Ignition</strong>.
+                        </p>
+
+                        <p>
+                            En paralelo, he explorado un amplio abanico de tecnologías:
                             <strong>microcontroladores y manipulación de bits en C/C++, POO, desarrollo de videojuegos, aplicaciones de escritorio</strong>,
-                            y <strong>ecosistemas web full-stack</strong>, inteligencia artificial, e incluso algunos ejercicios con <strong>qubits</strong>.
-                            Esta trayectoria me ha permitido desarrollar una visión completa del software, desde el hardware más cercano al sensor
-                            hasta soluciones escalables e integradas, aplicando principios de <strong>Industria 4.0</strong> y digitalización de procesos industriales.
+                            <strong>ecosistemas web full-stack</strong>, inteligencia artificial, e incluso algunos ejercicios con <strong>qubits</strong>.
+                            Esta trayectoria me ha permitido desarrollar una visión completa del software, desde el hardware más cercano al sensor hasta soluciones escalables e integradas, aplicando principios de <strong>Industria 4.0</strong> y digitalización de procesos industriales.
                         </p>
 
                         <h3>- Cerrando la brecha entre lo físico y lo digital -</h3>

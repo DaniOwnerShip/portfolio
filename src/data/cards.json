@@ -63,7 +63,8 @@
         "tittle": "SCADA Línea producción",
         "description": "Aplicación de escritorio en Electron para visualizar y controlar una línea de producción con PLCs vía Modbus.",
         "git": [
-            "https://github.com/DaniOwnerShip/SCADATest.git"
+            "https://github.com/DaniOwnerShip/SCADATest.git",
+            "https://github.com/DaniOwnerShip/SCADATestCursor.git"
         ],
         "image": {
             "url": "/resources/mb/electron.gif",
@@ -118,7 +119,7 @@
     },
     {
         "name": "PLC Gateway",
-        "tittle": "PLC Gateway Web – Full-Stack Industrial",
+        "tittle": "PLC Gateway Web Full-Stack",
         "description": "Interfaz web en Node.js y Next.js para monitorizar y controlar PLCs en tiempo real mediante polling.",
         "git": [
             "https://github.com/DaniOwnerShip/client-modbus.git",
@@ -296,6 +297,40 @@
                 "size": {
                     "w": 25,
                     "h": 25
+                }
+            }
+        ]
+    },
+    {
+        "name": "aiagents",
+        "tittle": "AI Agents Lab",
+        "description": "Repositorio de experimentación con agentes de IA y desarrollo por prompts. Incluye pequeños proyectos creados con herramientas como Cursor AI y Claude Code.",
+        "git": [
+            "https://github.com/DaniOwnerShip/AIAgentsProjecctsLab.git"
+        ],
+        "image": {
+            "url": "/resources/ia/cc.png",
+            "alt": "ia",
+            "size": {
+                "w": 110,
+                "h": 110
+            }
+        },
+        "icons": [
+            {
+                "url": "/resources/ia/cclogo.png",
+                "alt": "tensorflow",
+                "size": {
+                    "w": 30,
+                    "h": 30
+                }
+            },
+            {
+                "url": "/resources/ia/cursorlogo.jpg",
+                "alt": "Keras",
+                "size": {
+                    "w": 30,
+                    "h": 30
                 }
             }
         ]

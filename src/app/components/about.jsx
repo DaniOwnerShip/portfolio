@@ -40,7 +40,7 @@ export default function About() {
                         </p>
 
                         <p>
-                            Mi curiosidad técnica nació con un Load "" enter en un ZX Spectrum. Mientras esperaba la carga eterna de los juegos, comencé a leer los códigos del manual, modificarlos y ejecutarlos. Entender cómo funcionaban ese código pronto se hizo más divertido que los propios juegos.
+                            Mi historia comenzó con un ZX Spectrum, mientras esperaba la carga eterna de los juegos, comencé a leer los códigos del manual, modificarlos y ejecutarlos. Entender cómo funcionaban ese código pronto se hizo más divertido que los propios juegos.
                         </p>
 
                         <p>

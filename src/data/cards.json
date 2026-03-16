@@ -60,7 +60,7 @@
     },
     {
         "name": "electron",
-        "tittle": "SCADA Línea producción",
+        "tittle": "SCADA Electron",
         "description": "Aplicación de escritorio en Electron para visualizar y controlar una línea de producción con PLCs vía Modbus.",
         "git": [
             "https://github.com/DaniOwnerShip/SCADATest.git",
@@ -303,8 +303,8 @@
     },
     {
         "name": "aiagents",
-        "tittle": "AI Agents Lab",
-        "description": "Repositorio de experimentación con agentes de IA y desarrollo por prompts. Incluye pequeños proyectos creados con herramientas como Cursor AI y Claude Code.",
+        "tittle": "AI Lab",
+        "description": "Repositorio de pequeñas pruebas de desarrollo usando exclusivamente prompts, con Cursor AI y Claude Code.",
         "git": [
             "https://github.com/DaniOwnerShip/AIAgentsProjecctsLab.git"
         ],

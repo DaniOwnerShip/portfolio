@@ -5,7 +5,7 @@ export default function Hero({ onContactClick }) {
     <section className={styles.hero} id="hero">
       <div className={styles.content}>
         <h1 className={styles.name}>Daniel Orcha</h1>
-        <p className={styles.title}>Senior Software Engineer</p>
+        <p className={styles.title}>Industrial Software Developer</p>
         <p className={styles.subtitle}>Bridging OT and IT to build scalable industrial solutions</p>
         
         <div className={styles.cta}>

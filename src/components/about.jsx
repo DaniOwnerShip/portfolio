@@ -6,7 +6,7 @@ export default function About() {
     <section className={styles.about} id="about">
       <div className="container">
         <h2 className="section-title">About Me</h2>
-        
+
         <div className={styles.content}>
           <div className={styles.imageWrapper}>
             <Image
@@ -19,29 +19,19 @@ export default function About() {
               priority
             />
           </div>
-          
+
           <div className={styles.text}>
-            <h3>Senior Software Engineer specializing in Industrial Automation</h3>
-            
+            <h3>Industrial Software Developer | Bridging OT & IT</h3>
+
             <p>
-              With over 15 years of experience in critical industrial environments, I bridge 
-              the gap between Operational Technology (OT) and Information Technology (IT). 
-              I integrate control systems (PLC/SCADA) with modern full-stack ecosystems to 
-              digitize and automate industrial processes.
+              With over 15 years of experience in critical industrial environments, I bridge the gap between Operational Technology (OT) and Information Technology (IT). I integrate control systems (PLC/SCADA) with modern full-stack ecosystems to digitize and automate industrial processes.
+            </p>  <p>
+              I began exploring computing with a ZX Spectrum, and since 2010, I have deepened my expertise through a postgraduate degree in Industrial Automation. From microcontrollers and C/C++ to full-stack web development, AI, and cloud solutions, I apply Industry 4.0 principles and SOLID design patterns to every project.
+            </p><p>
+              Currently, I’m exploring specialized AI agents, Spec-Driven Development (SDD), and the complete stack with MCP servers.
             </p>
-            
-            <p>
-              My journey started with a ZX Spectrum, and since 2010, I&apos;ve deepened my expertise 
-              through a postgraduate degree in Industrial Automation. From microcontrollers and 
-              C/C++ to full-stack web development, AI, and cloud solutions, I apply Industry 4.0 
-              principles and SOLID design patterns to every project.
-            </p>
-            
-            <p>
-              Currently exploring specialized AI agents, SDD (Spec-Driven Development), and the 
-              complete stack with MCP servers.
-            </p>
-            
+ 
+
             <div className={styles.highlights}>
               <div className={styles.highlight}>
                 <span className={styles.highlightNumber}>15+</span>

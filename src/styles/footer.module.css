@@ -1,19 +1,118 @@
+.footer {
+  padding: 60px 0 32px;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+}
 
-.main {  
-    background-color: #000000a6;
-    height: 30px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    display: flex;
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.tagline {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.contactLink {
+  font-size: 0.875rem;
+  color: var(--accent);
+  margin-top: 8px;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.socialLink:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.builtWith {
+  font-size: 0.813rem;
+  color: var(--text-muted);
+}
+
+.builtWith a {
+  color: var(--text-secondary);
+}
+
+.builtWith a:hover {
+  color: var(--accent);
+}
+
+.bottom {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.bottom p {
+  font-size: 0.813rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    z-index: 2;
+    text-align: center;
   }
   
-  .main p{
-    font-weight: 600; 
-    color: whitesmoke;  
-    font-size: .8rem;
+  .left {
+    align-items: center;
   }
+  
+  .right {
+    align-items: center;
+  }
+  
+  .socials {
+    order: -1;
+  }
+}

@@ -1,24 +1,23 @@
 # Portfolio – Daniel Orcha
 
-Portfolio personal desarrollado con React / Next.js para mostrar proyectos, tecnologías y experiencia en desarrollo de software y automatización industrial.
+Personal portfolio developed with React / Next.js to showcase projects, technologies, and experience in software development and industrial automation.
 
-## Descripción
+## Description
 
-Este portfolio reúne algunos de mis proyectos personales y profesionales relacionados con:
+This portfolio gathers some of my personal and professional projects related to:
 
-- Desarrollo web full-stack
-- Automatización industrial
-- Integración de PLCs
-- Sistemas IoT y embebidos
-- Inteligencia artificial
-- Desarrollo de videojuegos
-- Software industrial y herramientas de ingeniería
+- Full-stack web development
+- Industrial automation
+- PLC integration
+- IoT and embedded systems
+- Artificial intelligence
+- Game development
+- Industrial software and engineering tools
 
-La interfaz tiene un estilo visual inspirado en entornos tecnológicos e industriales, con una estética tipo terminal/Matrix y elementos gráficos relacionados con electrónica, automatización y programación.
+The interface has a visual style inspired by technological and industrial environments, with a terminal/Matrix-like aesthetic and graphical elements related to electronics, automation, and programming.
 
-![portfolio](https://github.com/user-attachments/assets/26f3bde2-f34e-4f4d-94f8-db66b63576a6)
 
-## Tecnologías
+## Technologies
 
 - React
 - Next.js
@@ -26,33 +25,33 @@ La interfaz tiene un estilo visual inspirado en entornos tecnológicos e industr
 - CSS Modules
 - MongoDB
 
-## Características
+## Features
 
-- Interfaz interactiva con tarjetas de proyectos
-- Secciones minimizables
-- Animaciones CSS
-- Diseño visual inspirado en ingeniería y sistemas industriales
-- Acceso a repositorios de cada proyecto
+- Interactive interface with project cards
+- Collapsible sections
+- CSS animations
+- Visual design inspired by engineering and industrial systems
+- Access to each project's repositories
 
-## Proyectos incluidos
+## Included Projects
 
-El portfolio incluye ejemplos de proyectos en distintas áreas:
+The portfolio includes examples of projects in various areas:
 
-- SCADA industrial en Electron
-- Comunicación con PLCs (Node.js + Next.js)
-- Aplicaciones IoT
-- Modelos de inteligencia artificial con TensorFlow
-- Automatización y robótica industrial
-- Aplicaciones de escritorio
-- Desarrollo con Unity
+- Industrial SCADA in Electron
+- Communication with PLCs (Node.js + Next.js)
+- IoT applications
+- Artificial intelligence models with TensorFlow
+- Industrial automation and robotics
+- Desktop applications
+- Development with Unity
 
 ## Demo
 
-El portfolio puede verse aquí:
+The portfolio can be viewed here:
 
 https://portfoliodaol.vercel.app/
 
-## Autor
+## Author
 
-Daniel Orcha
-Especialista en software, hardware y digitalización de procesos industriales.
+Daniel Orcha  
+Specialist in software, hardware, and industrial process digitalization.

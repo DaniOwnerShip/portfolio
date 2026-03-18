@@ -5,8 +5,8 @@ import About from './about'
 import ProyectsDisplay from './proyectsDisplay'
 import Navbar from './navbar'
 import Footer from './footer'
-import Hero from './hero'
-import Skills from './skills'
+import Hero from './Hero'
+import Skills from './Skills'
 import ContactModal from './ContactModal'
 
 export default function MainContent({ data }) {

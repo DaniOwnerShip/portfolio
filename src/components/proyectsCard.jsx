@@ -16,7 +16,7 @@ function ProyectsCardInner({ card }) {
       </div>
       
       <div className={styles.content}>
-        <h3 className={styles.title}>{card.tittle}</h3>
+        <h3 className={styles.title}>{card.title}</h3>
         <p className={styles.description}>{card.description}</p>
         
         <div className={styles.technologies}>

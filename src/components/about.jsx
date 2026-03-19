@@ -22,16 +22,21 @@ export default function About() {
 
           <div className={styles.text}>
             <h3>Industrial Software Developer | Bridging OT & IT</h3>
+            <p>
+              With over 15 years of experience in critical industrial environments, I work across both Operational Technology (OT) and modern software systems. I don’t just connect systems—I design architectures that allows industrial processes to be reliably understood and used by software.
+            </p>
 
             <p>
-              With over 15 years of experience in critical industrial environments, I bridge the gap between Operational Technology (OT) and Information Technology (IT). I integrate control systems (PLC/SCADA) with modern full-stack ecosystems to digitize and automate industrial processes.
-            </p>  <p>
-              I began exploring computing with a ZX Spectrum, and since 2010, I have deepened my expertise through a postgraduate degree in Industrial Automation. From microcontrollers and C/C++ to full-stack web development, AI, and cloud solutions, I apply Industry 4.0 principles and SOLID design patterns to every project.
-            </p><p>
-              Currently, I’m exploring specialized AI agents, Spec-Driven Development (SDD), and the complete stack with MCP servers.
+              I bring hands-on experience from large-scale energy plants—including NextEra Energy, Saeta Yield, and Abengoa—working with SCADA/PLC systems, alarm management, and data platforms like AVEVA PI System. I’ve operated within complex industrial environments where control systems, data infrastructure, and software must work together under real constraints.
             </p>
- 
 
+            <p>
+              I focus on making complex systems understandable, reliable, and usable through well-designed software, with a strong emphasis on reliability, maintainability, and real-world constraints.
+            </p>
+
+            <p>
+              I started programming on a ZX Spectrum, and over time evolved from low-level C/C++ and embedded systems to full-stack development. Currently, I’m exploring AI agents, Spec-Driven Development (SDD), and MCP-based architectures.
+            </p>
             <div className={styles.highlights}>
               <div className={styles.highlight}>
                 <span className={styles.highlightNumber}>15+</span>

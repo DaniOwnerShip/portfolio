@@ -14,7 +14,7 @@ const skillCategories = [
   {
     name: 'Industrial',
     icon: '🏭',
-    skills: ['PLC', 'SCADA', 'Modbus', 'OPC UA', 'Siemens', 'ABB']
+    skills: ['PLC', 'SCADA', 'Modbus', 'OPC UA', 'Siemens', 'ABB' , 'Ignition']
   },
   {
     name: 'IoT & Embedded',
@@ -29,12 +29,12 @@ const skillCategories = [
   {
     name: 'Automation',
     icon: '⚙️',
-    skills: ['Robotics', 'KUKA', 'RobotStudio', 'WinCC', 'TIA Portal']
+    skills: ['Robotics', 'KUKA', 'RobotStudio', 'WinCC', 'FluidSim']
   },
   {
     name: 'Tools',
     icon: '🔧',
-    skills: ['Git', 'Docker', 'Unity', 'Blender', 'VBA', 'Excel']
+    skills: ['Git', 'Unity', 'Blender', 'VBA', 'Excel']
   },
   {
     name: 'Desktop',

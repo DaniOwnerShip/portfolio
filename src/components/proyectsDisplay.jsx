@@ -16,11 +16,16 @@ export default function ProyectsDisplay() {
       <div className="container">
         <h2 className="section-title">Projects</h2>
         
-        <div className={styles.grid}>
-          {cardsData.map((card, index) => (
-            <ProyectsCard key={card.name || index} card={card} />
-          ))}
-        </div>
+        {cardsData.map((section, index) => (
+          <div key={section.category} className={styles.categorySection}>
+            <h3 className={styles.categoryTitle}>{section.category}</h3>
+            <div className={styles.grid}>
+              {section.items.map((card) => (
+                <ProyectsCard key={card.name} card={card} />
+              ))}
+            </div>
+          </div>
+        ))}
         
         <div className={styles.galleryLink}>
           <Link href="/gallery">

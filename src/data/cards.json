@@ -1,572 +1,629 @@
 [
-    {
+  {
+    "category": "Industrial Solutions",
+    "items": [
+      {
+        "name": "scada",
+        "title": "SCADA Electron Desktop",
+        "description": "Electron desktop application to visualize and control production lines with PLCs via Modbus protocol.",
+        "git": [
+          "https://github.com/DaniOwnerShip/SCADATest.git",
+          "https://github.com/DaniOwnerShip/SCADATestCursor.git"
+        ],
+        "image": {
+          "url": "/resources/mb/electron.gif",
+          "alt": "scada electron",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
+        },
+        "icons": [
+          {
+            "url": "/resources/web/electronlogo.png",
+            "alt": "electron",
+            "size": {
+              "w": 30,
+              "h": 30
+            }
+          },
+          {
+            "url": "/resources/web/nodejs.png",
+            "alt": "nodejs",
+            "size": {
+              "w": 60,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/web/nextjs.png",
+            "alt": "nextjs",
+            "size": {
+              "w": 60,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/web/react.png",
+            "alt": "react",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/web/weblogos.png",
+            "alt": "weblogos",
+            "size": {
+              "w": 70,
+              "h": 25
+            }
+          }
+        ]
+      },
+      {
+        "name": "plc-gateway",
+        "title": "PLC Gateway Web",
+        "description": "Node.js/Next.js web interface for real-time PLC monitoring and control via polling.",
+        "git": [
+          "https://github.com/DaniOwnerShip/client-modbus.git",
+          "https://github.com/DaniOwnerShip/server-modbus.git"
+        ],
+        "image": {
+          "url": "/resources/mb/modbus.jpg",
+          "alt": "modbus plc",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
+        },
+        "icons": [
+          {
+            "url": "/resources/web/nodejs.png",
+            "alt": "nodejs",
+            "size": {
+              "w": 60,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/web/nextjs.png",
+            "alt": "nextjs",
+            "size": {
+              "w": 60,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/web/react.png",
+            "alt": "react",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/web/weblogos.png",
+            "alt": "weblogos",
+            "size": {
+              "w": 70,
+              "h": 25
+            }
+          }
+        ]
+      },
+      {
+        "name": "automation",
+        "title": "Industrial Automation",
+        "description": "Automated systems design: equipment sizing, logic equations, control technology integration and monitoring systems.",
+        "git": [],
+        "image": {
+          "url": "/resources/automatizacion/pneumaticstation.PNG",
+          "alt": "automation",
+          "size": {
+            "w": 160,
+            "h": 110
+          }
+        },
+        "icons": [
+          {
+            "url": "/resources/automatizacion/Siemens-logo.svg",
+            "alt": "Siemens",
+            "size": {
+              "w": 70,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/automatizacion/ABB_Group-Logo.wine.svg",
+            "alt": "ABB",
+            "size": {
+              "w": 70,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/automatizacion/winCC.png",
+            "alt": "winCC",
+            "size": {
+              "w": 70,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/automatizacion/abb-robotstudio.jpg",
+            "alt": "robotstudio",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/automatizacion/c++logo.svg",
+            "alt": "c++",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          }
+        ]
+      },
+      {
+        "name": "robotics",
+        "title": "Industrial Robotics",
+        "description": "Box classification and palletizing using KUKA IRB 2400 industrial robot.",
+        "git": [
+          "https://github.com/DaniOwnerShip/ABBRobot.git"
+        ],
+        "image": {
+          "url": "/resources/automatizacion/r2.jpg",
+          "alt": "robotics",
+          "size": {
+            "w": 160,
+            "h": 110
+          }
+        },
+        "icons": [
+          {
+            "url": "/resources/automatizacion/ABB_Group-Logo.wine.svg",
+            "alt": "ABB",
+            "size": {
+              "w": 70,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/automatizacion/abb-robotstudio.jpg",
+            "alt": "robotstudio",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          }
+        ]
+      },
+      {
+        "name": "pi-system",
+        "title": "PI System / AVEVA",
+        "description": "Plant screen design for real-time monitoring and process parameter calculation. Instrumentation tag database administrator.",
+        "git": [],
+        "image": {
+          "url": "/resources/pi/pi.png",
+          "alt": "pi system",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
+        },
+        "icons": [
+          {
+            "url": "/resources/pi/pilogo.jpg",
+            "alt": "pi",
+            "size": {
+              "w": 100,
+              "h": 30
+            }
+          }
+        ]
+      },
+      {
+        "name": "ignition",
+        "title": "Ignition SCADA Development",
+        "description": "Ignition Perspective projects with Python scripting, database management, and HMI optimization for industrial applications.",
+        "git": [],
+        "image": {
+          "url": "/resources/automatizacion/ignition.jpg",
+          "alt": "ignition scada",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
+        },
+        "icons": [
+          {
+            "url": "/resources/automatizacion/ignition-logo.png",
+            "alt": "ignition",
+            "size": {
+              "w": 80,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/automatizacion/python.png",
+            "alt": "python",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "AI & Data Science",
+    "items": [
+      {
+        "name": "ai",
+        "title": "Artificial Intelligence",
+        "description": "Neural models with TensorFlow/Keras. Flow prediction from real data and image classification (dog vs food).",
+        "git": [
+          "https://github.com/DaniOwnerShip/AIImageClassifier.git",
+          "https://github.com/DaniOwnerShip/KerasModel.git"
+        ],
+        "image": {
+          "url": "/resources/ia/ia.png",
+          "alt": "ai",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
+        },
+        "icons": [
+          {
+            "url": "/resources/ia/tensorflow-text.png",
+            "alt": "tensorflow",
+            "size": {
+              "w": 80,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/ia/Keras_logo.svg",
+            "alt": "Keras",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/ia/python.png",
+            "alt": "python",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          }
+        ]
+      },
+      {
+        "name": "ai-lab",
+        "title": "AI Lab",
+        "description": "Small development experiments using AI prompts with Cursor AI and Claude Code.",
+        "git": [
+          "https://github.com/DaniOwnerShip/AIAgentsProjecctsLab.git"
+        ],
+        "image": {
+          "url": "/resources/ia/cc.png",
+          "alt": "ai lab",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
+        },
+        "icons": [
+          {
+            "url": "/resources/ia/cclogo.png",
+            "alt": "claude code",
+            "size": {
+              "w": 30,
+              "h": 30
+            }
+          },
+          {
+            "url": "/resources/ia/cursorlogo.jpg",
+            "alt": "cursor",
+            "size": {
+              "w": 30,
+              "h": 30
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Web Development",
+    "items": [
+      {
         "name": "web",
-        "tittle": "Web Full Stack",
-        "description": "Desarrollo de aplicaciones web full-stack con enfoque en Node.js y Next.js (React). Implementación de API's, sockets y bases de datos MongoDB y MySQL.",
+        "title": "Web Full Stack",
+        "description": "Full-stack web development with Node.js and Next.js (React). API implementation, sockets, MongoDB and MySQL databases.",
         "git": [
-            "https://github.com/DaniOwnerShip/dataCenter.git",
-            "https://github.com/DaniOwnerShip/serverCDT.git"
+          "https://github.com/DaniOwnerShip/dataCenter.git",
+          "https://github.com/DaniOwnerShip/serverCDT.git"
         ],
         "image": {
-            "url": "/resources/web/webcdt.png",
-            "alt": "webcdt",
-            "size": {
-                "w": 110,
-                "h": 110
-            }
+          "url": "/resources/web/webcdt.png",
+          "alt": "web full stack",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
         },
         "icons": [
-            {
-                "url": "/resources/web/nodejs.png",
-                "alt": "nodejs",
-                "size": {
-                    "w": 60,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/nextjs.png",
-                "alt": "nextjs",
-                "size": {
-                    "w": 60,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/react.png",
-                "alt": "react",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/weblogos.png",
-                "alt": "weblogos",
-                "size": {
-                    "w": 70,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/MongoDB_Fores-Green.png",
-                "alt": "MongoDB",
-                "size": {
-                    "w": 100,
-                    "h": 25
-                }
+          {
+            "url": "/resources/web/nodejs.png",
+            "alt": "nodejs",
+            "size": {
+              "w": 60,
+              "h": 25
             }
+          },
+          {
+            "url": "/resources/web/nextjs.png",
+            "alt": "nextjs",
+            "size": {
+              "w": 60,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/web/react.png",
+            "alt": "react",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/web/weblogos.png",
+            "alt": "weblogos",
+            "size": {
+              "w": 70,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/web/MongoDB_Fores-Green.png",
+            "alt": "MongoDB",
+            "size": {
+              "w": 100,
+              "h": 25
+            }
+          }
         ]
-    },
-    {
-        "name": "electron",
-        "tittle": "SCADA Electron",
-        "description": "Aplicación de escritorio en Electron para visualizar y controlar una línea de producción con PLCs vía Modbus.",
+      }
+    ]
+  },
+  {
+    "category": "Embedded & IoT",
+    "items": [
+      {
+        "name": "embedded",
+        "title": "IoT & Embedded Systems",
+        "description": "Electronic prototyping and IoT devices, from hardware to software, including PIC microcontroller programming and environmental data transmission.",
         "git": [
-            "https://github.com/DaniOwnerShip/SCADATest.git",
-            "https://github.com/DaniOwnerShip/SCADATestCursor.git"
+          "https://github.com/DaniOwnerShip/LegacyProjectsMicrochips.git"
         ],
         "image": {
-            "url": "/resources/mb/electron.gif",
-            "alt": "webcdt",
-            "size": {
-                "w": 110,
-                "h": 110
-            }
+          "url": "/resources/electronica/electronic.jpg",
+          "alt": "embedded iot",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
         },
         "icons": [
-            {
-                "url": "/resources/web/electronlogo.png",
-                "alt": "nodejs",
-                "size": {
-                    "w": 30,
-                    "h": 30
-                }
-            },
-            {
-                "url": "/resources/web/nodejs.png",
-                "alt": "nodejs",
-                "size": {
-                    "w": 60,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/nextjs.png",
-                "alt": "nextjs",
-                "size": {
-                    "w": 60,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/react.png",
-                "alt": "react",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/weblogos.png",
-                "alt": "weblogos",
-                "size": {
-                    "w": 70,
-                    "h": 25
-                }
-            }
-        ]
-    },
-    {
-        "name": "PLC Gateway",
-        "tittle": "PLC Gateway Web Full-Stack",
-        "description": "Interfaz web en Node.js y Next.js para monitorizar y controlar PLCs en tiempo real mediante polling.",
-        "git": [
-            "https://github.com/DaniOwnerShip/client-modbus.git",
-            "https://github.com/DaniOwnerShip/server-modbus.git"
-        ],
-        "image": {
-            "url": "/resources/mb/modbus.jpg",
-            "alt": "modbus",
+          {
+            "url": "/resources/electronica/MICROCHIP.png",
+            "alt": "MICROCHIP",
             "size": {
-                "w": 110,
-                "h": 110
+              "w": 90,
+              "h": 25
             }
-        },
-        "icons": [
-            {
-                "url": "/resources/web/nodejs.png",
-                "alt": "nodejs",
-                "size": {
-                    "w": 60,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/nextjs.png",
-                "alt": "nextjs",
-                "size": {
-                    "w": 60,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/react.png",
-                "alt": "react",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/web/weblogos.png",
-                "alt": "weblogos",
-                "size": {
-                    "w": 70,
-                    "h": 25
-                }
-            }
-        ]
-    },
-    {
-        "name": "Electrónic",
-        "tittle": "IoT & Embedded",
-        "description": "Creación de prototipos electrónicos y dispositivos IoT, desde hardware hasta software, incluyendo programación de microships PIC y transmisión de datos ambientales.",
-        "git": [
-            "https://github.com/DaniOwnerShip/LegacyProjectsMicrochips.git"
-        ],
-        "image": {
-            "url": "/resources/electronica/electronic.jpg",
-            "alt": "electronic",
+          },
+          {
+            "url": "/resources/electronica/ccs.jpg",
+            "alt": "ccs",
             "size": {
-                "w": 110,
-                "h": 110
+              "w": 70,
+              "h": 25
             }
-        },
-        "icons": [
-            {
-                "url": "/resources/electronica/MICROCHIP.png",
-                "alt": "MICROCHIP",
-                "size": {
-                    "w": 90,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/electronica/ccs.jpg",
-                "alt": "ccs",
-                "size": {
-                    "w": 70,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/electronica/eagleCS.jpg",
-                "alt": "eagleCS",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/electronica/Multisim_logo.jpg",
-                "alt": "Multisim",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/electronica/C_Logo.png",
-                "alt": "C",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/electronica/SketchUp_logo.png",
-                "alt": "SketchUp",
-                "size": {
-                    "w": 70,
-                    "h": 25
-                }
+          },
+          {
+            "url": "/resources/electronica/eagleCS.jpg",
+            "alt": "eagleCS",
+            "size": {
+              "w": 25,
+              "h": 25
             }
+          },
+          {
+            "url": "/resources/electronica/Multisim_logo.jpg",
+            "alt": "Multisim",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/electronica/C_Logo.png",
+            "alt": "C",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/electronica/SketchUp_logo.png",
+            "alt": "SketchUp",
+            "size": {
+              "w": 70,
+              "h": 25
+            }
+          }
         ]
-    },
-    {
-        "name": "PI",
-        "tittle": "PI OSISoft / AVEVA",
-        "description": "Diseño de pantallas de planta para monitorización en tiempo real y cálculo de parámetros de proceso. Administrador de base de datos de tags de instrumentación.",
+      }
+    ]
+  },
+  {
+    "category": "Other Tools",
+    "items": [
+      {
+        "name": "excel-vba",
+        "title": "Excel VBA Tools",
+        "description": "Excel workbooks with macros for equipment tracking, deviations, chemical control, production indices and automatic reports.",
         "git": [],
         "image": {
-            "url": "/resources/pi/pi.png",
-            "alt": "electronic",
-            "size": {
-                "w": 110,
-                "h": 110
-            }
+          "url": "/resources/excel/excel.png",
+          "alt": "excel vba",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
         },
         "icons": [
-            {
-                "url": "/resources/pi/pilogo.jpg",
-                "alt": "excel",
-                "size": {
-                    "w": 100,
-                    "h": 30
-                }
-            }
-        ]
-    },
-    {
-        "name": "IA",
-        "tittle": "Inteligencia Artificial",
-        "description": "Modelos neuronales con TensorFlow/Keras. Experimentos de predicción de caudal a partir de datos reales y clasificación de imágenes (perro vs comida).",
-        "git": [
-            "https://github.com/DaniOwnerShip/AIImageClassifier.git",
-            "https://github.com/DaniOwnerShip/KerasModel.git"
-        ],
-        "image": {
-            "url": "/resources/ia/ia.png",
-            "alt": "ia",
-            "size": {
-                "w": 110,
-                "h": 110
-            }
-        },
-        "icons": [
-            {
-                "url": "/resources/ia/tensorflow-text.png",
-                "alt": "tensorflow",
-                "size": {
-                    "w": 80,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/ia/Keras_logo.svg",
-                "alt": "Keras",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/ia/python.png",
-                "alt": "python",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            }
-        ]
-    },
-    {
-        "name": "aiagents",
-        "tittle": "AI Lab",
-        "description": "Repositorio de pequeñas pruebas de desarrollo usando exclusivamente prompts, con Cursor AI y Claude Code.",
-        "git": [
-            "https://github.com/DaniOwnerShip/AIAgentsProjecctsLab.git"
-        ],
-        "image": {
-            "url": "/resources/ia/cc.png",
-            "alt": "ia",
-            "size": {
-                "w": 110,
-                "h": 110
-            }
-        },
-        "icons": [
-            {
-                "url": "/resources/ia/cclogo.png",
-                "alt": "tensorflow",
-                "size": {
-                    "w": 30,
-                    "h": 30
-                }
-            },
-            {
-                "url": "/resources/ia/cursorlogo.jpg",
-                "alt": "Keras",
-                "size": {
-                    "w": 30,
-                    "h": 30
-                }
-            }
-        ]
-    },
-    {
-        "name": "Automation",
-        "tittle": "Automatización Industrial",
-        "description": "Diseño e implementación de sistemas automatizados: dimensionado de equipos, definición de ecuaciones lógicas para automatismos, integración de tecnologías de control y sistemas de monitoreo.",
-        "git": [],
-        "image": {
-            "url": "/resources/automatizacion/pneumaticstation.PNG",
-            "alt": "station",
-            "size": {
-                "w": 160,
-                "h": 110
-            }
-        },
-        "icons": [
-            {
-                "url": "/resources/automatizacion/Siemens-logo.svg",
-                "alt": "Siemens",
-                "size": {
-                    "w": 70,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/automatizacion/ABB_Group-Logo.wine.svg",
-                "alt": "ABB",
-                "size": {
-                    "w": 70,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/automatizacion/winCC.png",
-                "alt": "winCC",
-                "size": {
-                    "w": 70,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/automatizacion/abb-robotstudio.jpg",
-                "alt": "robotstudio",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/automatizacion/c++logo.svg",
-                "alt": "c++",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            }
-        ]
-    },
-    {
-        "name": "RobotStudio",
-        "tittle": "Robótica Industrial",
-        "description": "Proyecto de clasificación y paletizado de cajas mediante robot industrial KUKA IRB 2400.",
-        "git": [
-            "https://github.com/DaniOwnerShip/ABBRobot.git"
-        ],
-        "image": {
-            "url": "/resources/automatizacion/r2.jpg",
-            "alt": "station",
-            "size": {
-                "w": 160,
-                "h": 110
-            }
-        },
-        "icons": [
-            {
-                "url": "/resources/automatizacion/ABB_Group-Logo.wine.svg",
-                "alt": "ABB",
-                "size": {
-                    "w": 70,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/automatizacion/abb-robotstudio.jpg",
-                "alt": "robotstudio",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            }
-        ]
-    },
-    {
-        "name": "Vba",
-        "tittle": "Excel Vba",
-        "description": "Libros Excel con macros para seguimiento de equipos, desviaciones, control químico, índices de producción y generación automática de informes.",
-        "git": [],
-        "image": {
+          {
             "url": "/resources/excel/excel.png",
-            "alt": "electronic",
+            "alt": "excel",
             "size": {
-                "w": 110,
-                "h": 110
+              "w": 25,
+              "h": 25
             }
-        },
-        "icons": [
-            {
-                "url": "/resources/excel/excel.png",
-                "alt": "excel",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/excel/vba.png",
-                "alt": "vba",
-                "size": {
-                    "w": 90,
-                    "h": 25
-                }
+          },
+          {
+            "url": "/resources/excel/vba.png",
+            "alt": "vba",
+            "size": {
+              "w": 90,
+              "h": 25
             }
+          }
         ]
-    },
-    {
-        "name": "unity",
-        "tittle": "Videojuegos 2D y 3D",
-        "description": "Desarrollo de juegos en Unity, creando personajes, animaciones, hitboxes y lógica de juego mediante C#",
+      },
+      {
+        "name": "gamedev",
+        "title": "2D & 3D Game Development",
+        "description": "Game development in Unity: characters, animations, hitboxes and game logic in C#.",
         "git": [],
         "image": {
-            "url": "/resources/unity/unity.png",
-            "alt": "unity",
-            "size": {
-                "w": 110,
-                "h": 110
-            }
+          "url": "/resources/unity/unity.png",
+          "alt": "game development",
+          "size": {
+            "w": 110,
+            "h": 110
+          }
         },
         "icons": [
-            {
-                "url": "/resources/unity/Unity_Technologies_logo.svg",
-                "alt": "unityLogo",
-                "size": {
-                    "w": 60,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/unity/Logo_C_sharp.svg",
-                "alt": "C_sharp",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
-            },
-            {
-                "url": "/resources/unity/Blender_logo_no_text.svg",
-                "alt": "Blender",
-                "size": {
-                    "w": 25,
-                    "h": 25
-                }
+          {
+            "url": "/resources/unity/Unity_Technologies_logo.svg",
+            "alt": "unityLogo",
+            "size": {
+              "w": 60,
+              "h": 25
             }
+          },
+          {
+            "url": "/resources/unity/Logo_C_sharp.svg",
+            "alt": "C_sharp",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          },
+          {
+            "url": "/resources/unity/Blender_logo_no_text.svg",
+            "alt": "Blender",
+            "size": {
+              "w": 25,
+              "h": 25
+            }
+          }
         ]
-    },
-    {
-        "name": "Ethereum",
-        "tittle": "Smarts Contracts Ethereum",
-        "description": "Tokenizado de activos para su comercio, implementación y despliegue del contrato. Integración de la red Ethereum con HTTP a través de Provable® (anterior Oraclize®) para calcular el valor del token en tiempo real.",
+      },
+      {
+        "name": "blockchain",
+        "title": "Ethereum Smart Contracts",
+        "description": "Asset tokenization for trading, contract deployment. Ethereum network integration via Provable for real-time token valuation.",
         "git": [],
         "image": {
-            "url": "/resources/ethereum/SCCnet.png",
-            "alt": "scc",
-            "size": {
-                "w": 160,
-                "h": 110
-            }
+          "url": "/resources/ethereum/SCCnet.png",
+          "alt": "blockchain ethereum",
+          "size": {
+            "w": 160,
+            "h": 110
+          }
         },
         "icons": [
-            {
-                "url": "/resources/ethereum/ethereumLogo.svg",
-                "alt": "ethereum",
-                "size": {
-                    "w": 100,
-                    "h": 30
-                }
-            },
-            {
-                "url": "/resources/ethereum/SolidityLogo.svg",
-                "alt": "Solidity",
-                "size": {
-                    "w": 30,
-                    "h": 30
-                }
-            },
-            {
-                "url": "/resources/ethereum/provable.webp",
-                "alt": "provable",
-                "size": {
-                    "w": 30,
-                    "h": 30
-                }
+          {
+            "url": "/resources/ethereum/ethereumLogo.svg",
+            "alt": "ethereum",
+            "size": {
+              "w": 100,
+              "h": 30
             }
+          },
+          {
+            "url": "/resources/ethereum/SolidityLogo.svg",
+            "alt": "Solidity",
+            "size": {
+              "w": 30,
+              "h": 30
+            }
+          },
+          {
+            "url": "/resources/ethereum/provable.webp",
+            "alt": "provable",
+            "size": {
+              "w": 30,
+              "h": 30
+            }
+          }
         ]
-    },
-    {
-        "name": "desktop",
-        "tittle": "Visual Basic, C++",
-        "description": "Herramientas de escritorio para Windows en Visual Basic: conversores, utilidades de monitorización y análisis de red, con visualización estilo Matrix de paquetes en tiempo real.",
+      },
+      {
+        "name": "desktop-apps",
+        "title": "Windows Desktop Apps",
+        "description": "Visual Basic Windows tools: converters, monitoring utilities and network analysis applications.",
         "git": [],
         "image": {
-            "url": "/resources/vbdesktop/matrix.png",
-            "alt": "scc",
-            "size": {
-                "w": 160,
-                "h": 110
-            }
+          "url": "/resources/vbdesktop/matrix.png",
+          "alt": "desktop apps",
+          "size": {
+            "w": 160,
+            "h": 110
+          }
         },
         "icons": [
-            {
-                "url": "/resources/vbdesktop/vb.jpg",
-                "alt": "vbdesktop",
-                "size": {
-                    "w": 60,
-                    "h": 30
-                }
-            },
-            {
-                "url": "/resources/vbdesktop/c.png",
-                "alt": "c",
-                "size": {
-                    "w": 30,
-                    "h": 30
-                }
+          {
+            "url": "/resources/vbdesktop/vb.jpg",
+            "alt": "vbdesktop",
+            "size": {
+              "w": 60,
+              "h": 30
             }
+          },
+          {
+            "url": "/resources/vbdesktop/c.png",
+            "alt": "c",
+            "size": {
+              "w": 30,
+              "h": 30
+            }
+          }
         ]
-    }
+      }
+    ]
+  }
 ]

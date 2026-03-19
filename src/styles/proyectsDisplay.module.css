@@ -9,6 +9,19 @@
   gap: 24px;
 }
 
+.categorySection {
+  margin-bottom: 64px;
+}
+
+.categoryTitle {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--accent);
+  font-weight: 600;
+}
+
 .galleryLink {
   text-align: center;
   margin-top: 48px;

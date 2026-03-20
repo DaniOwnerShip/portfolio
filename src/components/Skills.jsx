@@ -2,53 +2,83 @@ import styles from '@/styles/skills.module.css';
 
 const skillCategories = [
   {
-    name: 'Frontend',
-    icon: '⚛️',
-    skills: ['React', 'Next.js', 'TypeScript', 'CSS', 'HTML']
+    name: 'Systems & Architecture',
+    icon: '🧠',
+    skills: [
+      'System Design',
+      'Distributed Systems',
+      'Event-driven Architectures',
+      'Real-time Systems',
+      'Industrial Software Architecture'
+    ]
   },
   {
-    name: 'Backend',
-    icon: '🖥️',
-    skills: ['Node.js', 'REST APIs', 'MongoDB', 'MySQL', 'Express']
-  },
-  {
-    name: 'Industrial',
+    name: 'Industrial & Automation',
     icon: '🏭',
-    skills: ['PLC', 'SCADA', 'Modbus', 'OPC UA', 'Siemens', 'ABB' , 'Ignition']
+    skills: [
+      'PLC (Siemens, ABB)',
+      'SCADA / HMI Systems',
+      'Modbus / OPC UA',
+      'Ignition SCADA',
+      'WinCC',
+      'Industrial Control Systems'
+    ]
   },
   {
-    name: 'IoT & Embedded',
-    icon: '📡',
-    skills: ['PIC Microcontrollers', 'C/C++', 'IoT', 'Eagle', 'Multisim']
+    name: 'Software Engineering',
+    icon: '💻',
+    skills: [
+      'Node.js',
+      'TypeScript',
+      'React / Next.js',
+      'REST APIs',
+      'Databases (MongoDB, MySQL)',
+      'Backend Architecture'
+    ]
   },
   {
-    name: 'AI & Data',
+    name: 'Data & AI Systems',
     icon: '🤖',
-    skills: ['TensorFlow', 'Keras', 'Python', 'Data Analysis']
+    skills: [
+      'Python',
+      'TensorFlow / Keras',
+      'Data Processing',
+      'Machine Learning',
+      'AI Agents (Exploration)'
+    ]
   },
   {
-    name: 'Automation',
-    icon: '⚙️',
-    skills: ['Robotics', 'KUKA', 'RobotStudio', 'WinCC', 'FluidSim']
+    name: 'Embedded & Edge Systems',
+    icon: '📡',
+    skills: [
+      'C / C++',
+      'Microcontrollers (PIC)',
+      'IoT Systems',
+      'Hardware Integration',
+      'Edge Computing'
+    ]
   },
   {
-    name: 'Tools',
+    name: 'Tools & Platforms',
     icon: '🔧',
-    skills: ['Git', 'Unity', 'Blender', 'VBA', 'Excel']
-  },
-  {
-    name: 'Desktop',
-    icon: '🖱️',
-    skills: ['Electron', 'Visual Basic', 'C++', '.NET']
+    skills: [
+      'Electron',
+      'Git',
+      'Unity (Exploration)',
+      'Blender',
+      'Excel VBA',
+      'Windows Desktop Apps'
+    ]
   }
 ];
+
 
 export default function Skills() {
   return (
     <section className={styles.skills} id="skills">
       <div className="container">
         <h2 className="section-title">Skills & Technologies</h2>
-        
+
         <div className={styles.grid}>
           {skillCategories.map((category) => (
             <div key={category.name} className={styles.category}>

@@ -14,25 +14,25 @@ function ProyectsCardInner({ card }) {
           sizes="(max-width: 768px) 100vw, 400px"
         />
       </div>
-      
+
       <div className={styles.content}>
         <h3 className={styles.title}>{card.title}</h3>
-        <p className={styles.description}>{card.description}</p>
-        
-        <div className={styles.technologies}>
-          {card.icons?.slice(0, 5).map((icon, index) => (
-            <div key={index} className={styles.techIcon}>
-              <Image
-                src={icon.url}
-                alt={icon.alt}
-                width={icon.size.w}
-                height={icon.size.h}
-                sizes={`${icon.size.w}px`}
-              />
-            </div>
-          ))}
-        </div>
-        
+
+        <p className={styles.description}>
+          {card.description}
+        </p>
+
+        {card.tags && card.tags.length > 0 && (
+          <div className={styles.technologies}>
+            Tags:
+            {card.tags.slice(0, 5).map((tag, index) => (
+              <span key={index} className={styles.tag}>
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+
         {card.git && card.git.length > 0 && (
           <div className={styles.links}>
             {card.git.map((url, index) => (
@@ -48,6 +48,7 @@ function ProyectsCardInner({ card }) {
             ))}
           </div>
         )}
+
       </div>
     </article>
   )

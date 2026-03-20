@@ -20,23 +20,21 @@ export default function About() {
             />
           </div>
 
-          <div className={styles.text}>
-            <h3>Industrial Software Developer | Bridging OT & IT</h3>
+          <div className={styles.text}> 
+            <h3>Bridging the gap between <strong>Operational Technology (OT)</strong> & modern IT ecosystems.</h3>
+
             <p>
-              With over 15 years of experience in critical industrial environments, I work across both Operational Technology (OT) and modern software systems. I don’t just connect systems—I design architectures that allows industrial processes to be reliably understood and used by software.
+              With over <strong>15 years of experience</strong> in mission-critical industrial environments, I specialize in the intersection of <strong>OT and modern software</strong>. I don't just connect systems; I architect robust, scalable bridges that transform raw industrial data into <strong>actionable business intelligence</strong>.
             </p>
 
             <p>
-              I bring hands-on experience from large-scale energy plants—including NextEra Energy, Saeta Yield, and Abengoa—working with SCADA/PLC systems, alarm management, and data platforms like AVEVA PI System. I’ve operated within complex industrial environments where control systems, data infrastructure, and software must work together under real constraints.
+              My track record includes contributing to the design and optimization of systems for global energy leaders like <strong>NextEra Energy</strong>, <strong>Saeta Yield</strong>, and <strong>Abengoa</strong>. Having <strong>operated mission-critical control panels</strong>, I bring a unique perspective to <strong>SCADA/PLC integrations</strong> and data platforms like <strong>AVEVA PI System</strong>—where reliability is non-negotiable.
             </p>
 
             <p>
-              I focus on making complex systems understandable, reliable, and usable through well-designed software, with a strong emphasis on reliability, maintainability, and real-world constraints.
-            </p>
+              I began my journey on a <strong>ZX Spectrum</strong>, forging a foundation in low-level <strong>C/C++</strong>, and later completed a <strong>Postgraduate degree in Industrial Automation</strong>. Today, I leverage that mindset to build high-performance <strong>full-stack and desktop applications (Next.js, Node.js, Electron)</strong>, while exploring how to <strong>reliably integrate AI agents</strong> and MCP-based architectures into industrial workflows.
+            </p> 
 
-            <p>
-              I started programming on a ZX Spectrum, and over time evolved from low-level C/C++ and embedded systems to full-stack development. Currently, I’m exploring AI agents, Spec-Driven Development (SDD), and MCP-based architectures.
-            </p>
             <div className={styles.highlights}>
               <div className={styles.highlight}>
                 <span className={styles.highlightNumber}>15+</span>

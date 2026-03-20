@@ -4,19 +4,21 @@ import GalleryGrid from '@/components/GalleryGrid';
 
 async function getGalleryImages() {
   const galleryDir = path.join(process.cwd(), 'public', 'gallery');
-  
+
   try {
     const files = await fs.promises.readdir(galleryDir);
-    
+
     const images = files
       .filter(file => /\.(jpg|jpeg|png|webp|gif)$/i.test(file))
+      .sort((a, b) =>
+        a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
+      )
       .map((file, index) => ({
         id: index,
         src: `/gallery/${file}`,
         alt: `Gallery image ${index + 1}`
-      }))
-      .sort((a, b) => a.src.localeCompare(b.src));
-    
+      }));
+
     return images;
   } catch (error) {
     console.error('Error reading gallery directory:', error);
@@ -31,7 +33,7 @@ export const metadata = {
 
 export default async function GalleryPage() {
   const images = await getGalleryImages();
-  
+
   return (
     <>
       <GalleryGrid images={images} />

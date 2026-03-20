@@ -6,8 +6,8 @@ export default function Hero({ onContactClick }) {
       <div className={styles.content}>
         <h1 className={styles.name}>Daniel Orcha</h1>
         <h2 className={styles.title}>Senior Software Engineer</h2>
-        <h3 className={styles.title}>Industrial Systems & Modern Architectures</h3>
-        <p className={styles.subtitle}>Making complex systems understandable, reliable, and usable</p>
+        <h3 className={styles.title}>Industrial Systems & Scalable Software</h3>
+        <p className={styles.subtitle}>I build reliable systems where software meets the real world</p>
         
         <div className={styles.cta}>
           <a href="#projects" className="btn btn-primary">

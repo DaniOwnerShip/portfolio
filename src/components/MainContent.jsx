@@ -1,12 +1,13 @@
 'use client'
 
 import { useState } from 'react'
-import About from './about'
-import ProyectsDisplay from './proyectsDisplay'
-import Navbar from './navbar'
-import Footer from './footer'
+import About from './About'
+import ProyectsDisplay from './ProyectsDisplay'
+import Navbar from './Navbar'
+import Footer from './Footer'
 import Hero from './Hero'
 import Skills from './Skills'
+import CaseStudy from './CaseStudy'
 import ContactModal from './ContactModal'
 
 export default function MainContent({ data }) {
@@ -23,6 +24,7 @@ export default function MainContent({ data }) {
         <About />
         <Skills />
         <ProyectsDisplay />
+        <CaseStudy />
       </main>
       <Footer data={data} />
       

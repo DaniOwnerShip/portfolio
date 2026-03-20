@@ -7,13 +7,13 @@ const skillCategories = [
     skills: [
       'System Design',
       'Distributed Systems',
-      'Event-driven Architectures',
-      'Real-time Systems',
+      'Event-Driven Architectures',
+      'Real-Time Systems',
       'Industrial Software Architecture'
     ]
   },
   {
-    name: 'Industrial & Automation',
+    name: 'Industrial Systems',
     icon: '🏭',
     skills: [
       'PLC (Siemens, ABB)',
@@ -28,34 +28,33 @@ const skillCategories = [
     name: 'Software Engineering',
     icon: '💻',
     skills: [
-      'Node.js',
-      'TypeScript',
+      'Node.js', 
       'React / Next.js',
       'REST APIs',
-      'Databases (MongoDB, MySQL)',
-      'Backend Architecture'
+      'Backend Architecture',
+      'MongoDB / MySQL'
     ]
   },
   {
-    name: 'Data & AI Systems',
+    name: 'Data & Intelligent Systems',
     icon: '🤖',
     skills: [
       'Python',
-      'TensorFlow / Keras',
       'Data Processing',
       'Machine Learning',
-      'AI Agents (Exploration)'
+      'TensorFlow / Keras',
+      'AI Systems Integration'
     ]
   },
   {
-    name: 'Embedded & Edge Systems',
+    name: 'Embedded & Edge',
     icon: '📡',
     skills: [
       'C / C++',
       'Microcontrollers (PIC)',
       'IoT Systems',
       'Hardware Integration',
-      'Edge Computing'
+      'Edge Systems'
     ]
   },
   {
@@ -64,15 +63,12 @@ const skillCategories = [
     skills: [
       'Electron',
       'Git',
-      'Unity (Exploration)',
-      'Blender',
+      'Windows Desktop Apps',
       'Excel VBA',
-      'Windows Desktop Apps'
+      'Blender'
     ]
   }
 ];
-
-
 export default function Skills() {
   return (
     <section className={styles.skills} id="skills">

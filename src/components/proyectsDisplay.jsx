@@ -5,7 +5,7 @@ import cardsData from '@/data/cards.json'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 
-const ProyectsCard = dynamic(() => import('./proyectsCard'), {
+const ProyectsCard = dynamic(() => import('./ProyectsCard'), {
   ssr: false,
   loading: () => <div className={styles.cardSkeleton} />
 })
@@ -34,5 +34,6 @@ export default function ProyectsDisplay() {
         </div>
       </div>
     </section>
+    
   )
 }

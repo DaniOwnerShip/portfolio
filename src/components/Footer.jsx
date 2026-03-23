@@ -21,7 +21,7 @@ export default function Footer({ data }) {
         <div className={styles.content}>
           <div className={styles.left}>
             <h3 className={styles.name}>Daniel Orcha</h3>
-            <p className={styles.tagline}>Software Engineer</p>
+            <p className={styles.tagline}>Industrial Software Engineer (OT / IT)</p>
           </div>
           
           <div className={styles.right}>

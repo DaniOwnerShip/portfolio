@@ -16,10 +16,24 @@
 .categoryTitle {
   font-size: 1.5rem;
   color: var(--text-primary);
-  margin-bottom: 24px;
+  margin-bottom: 1px;
   padding-bottom: 12px;
-  border-bottom: 2px solid var(--accent);
   font-weight: 600;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  /* slightly smaller than body text */
+  color: var(--text-secondary);
+  color: #555;
+  /* medium‑gray for a subtle look */
+  margin-top: -0.4rem;
+  /* pull it closer to the heading */
+  margin-bottom: 1.2rem;
+  /* space before the project cards */
+  line-height: 1.4;
+  font-weight: 400;
+  border-bottom: 2px solid var(--accent);
 }
 
 .galleryLink {
@@ -53,17 +67,33 @@
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
 }
 
 @media (max-width: 768px) {
   .projects {
     padding: 48px 0;
   }
-  
+
   .grid {
     grid-template-columns: 1fr;
     gap: 16px;
   }
+
+  /* Optional: make it responsive 
+@media (max-width: 600px) {
+  .subtitle {
+    font-size: 0.85rem;
+    margin-bottom: 0.8rem;
+  }*/
+
+
 }

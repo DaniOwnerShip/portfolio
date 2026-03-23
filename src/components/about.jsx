@@ -10,50 +10,48 @@ export default function About() {
         <div className={styles.content}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/me.jpg"
-              alt="Daniel Orcha"
-              width={280}
-              height={280}
+              src="/about.jpg"
+              alt="about"
+              width={200}
+              height={200}
               className={styles.image}
+              style={{ height: 'auto' }}
               sizes="(max-width: 768px) 200px, 280px"
               priority
             />
           </div>
 
           <div className={styles.text}>
-            <h3>Bridging the gap between Operational Technology (OT) & modern IT ecosystems.</h3>
+            <h3>Industrial Software Engineer focused on OT systems, real-time environments, and industrial data.</h3>
 
-            <p>
-              15+ years of experience working in mission-critical industrial environments, operating across both Operational Technology (OT) and modern software systems.
-            </p>
+            <p>I have over 15 years of experience in industrial environments, working across Operational Technology (OT) and software systems in mission-critical energy infrastructure.</p>
 
-            <p>
-              I’ve contributed to large-scale energy infrastructures at companies like NextEra Energy, Saeta Yield, and Abengoa, working with SCADA/PLC systems, industrial data platforms, and real-time control environments where reliability is non-negotiable.
-            </p>
+            <p>My work spans from control room operations and commissioning to SCADA/PLC systems and real-time data platforms, in environments where reliability, safety, and deterministic behavior are essential.</p>
 
-            <p>
-              I specialize in turning complex systems into software that is understandable, maintainable, and reliable—bridging the gap between physical processes and scalable digital architectures.
-            </p>
+            <p>I design software systems that interact directly with physical processes—bridging OT and IT to improve operations, data usage, and system reliability.</p>
 
-            <p>
-              My background spans from low-level C/C++ and embedded systems to full-stack development, and I’m currently exploring AI-driven architectures and modern development workflows to build the next generation of intelligent systems.
-            </p>
+            <p>My background ranges from low-level embedded development (C/C++) to full-stack software systems, with a focus on practical, production-oriented solutions.</p>
 
             <div className={styles.highlights}>
               <div className={styles.highlight}>
                 <span className={styles.highlightNumber}>15+</span>
                 <span className={styles.highlightLabel}>Years Experience</span>
               </div>
+
               <div className={styles.highlight}>
-                <span className={styles.highlightNumber}>50+</span>
-                <span className={styles.highlightLabel}>Projects Completed</span>
+                <span className={styles.highlightNumber}>Industrial</span>
+                <span className={styles.highlightLabel}>Systems</span>
               </div>
+
               <div className={styles.highlight}>
-                <span className={styles.highlightNumber}>OT/IT</span>
-                <span className={styles.highlightLabel}>Expertise</span>
+                <span className={styles.highlightNumber}>OT / IT</span>
+                <span className={styles.highlightLabel}>Integration</span>
               </div>
             </div>
+
           </div>
+
+
         </div>
       </div>
     </section>

@@ -1,57 +1,49 @@
 # Portfolio – Daniel Orcha
 
-Personal portfolio developed with React / Next.js to showcase projects, technologies, and experience in software development and industrial automation.
+Personal portfolio built with Next.js to showcase projects and experience in industrial software and OT/IT systems.
 
 ## Description
 
-This portfolio gathers some of my personal and professional projects related to:
+This portfolio presents selected projects focused on:
 
-- Full-stack web development
-- Industrial automation
-- PLC integration
+- Industrial software systems
+- SCADA, PLC, and control systems
+- OT/IT integration
+- Real-time data and industrial data platforms
 - IoT and embedded systems
-- Artificial intelligence
-- Game development
-- Industrial software and engineering tools
+- Applied machine learning for industrial use cases
 
-The interface has a visual style inspired by technological and industrial environments, with a terminal/Matrix-like aesthetic and graphical elements related to electronics, automation, and programming.
-
+The focus is on real-world industrial environments, where reliability, system integration, and interaction with physical processes are essential.
 
 ## Technologies
 
-- React
 - Next.js
+- React
 - JavaScript
 - CSS Modules
-- MongoDB
 
 ## Features
 
-- Interactive interface with project cards
-- Collapsible sections
-- CSS animations
-- Visual design inspired by engineering and industrial systems
-- Access to each project's repositories
+- Project-based structure (Production, Prototypes, Academy, Lab)
+- Interactive project cards with expandable technical details
+- Clean UI focused on readability and technical clarity
 
 ## Included Projects
 
-The portfolio includes examples of projects in various areas:
+Examples of projects included:
 
-- Industrial SCADA in Electron
-- Communication with PLCs (Node.js + Next.js)
-- IoT applications
-- Artificial intelligence models with TensorFlow
-- Industrial automation and robotics
-- Desktop applications
-- Development with Unity
+- Industrial traceability system (Vision + SCADA)
+- Industrial data platform (AVEVA PI System)
+- Real-time PLC data gateway
+- Embedded IoT systems with WiFi and cloud integration
+- SCADA and control system development
+- Applied computer vision for industrial inspection
 
 ## Demo
-
-The portfolio can be viewed here:
 
 https://portfoliodaol.vercel.app/
 
 ## Author
 
 Daniel Orcha  
-Specialist in software, hardware, and industrial process digitalization.
+Industrial Software Engineer – OT/IT Systems, SCADA, and Real-Time Industrial Applications

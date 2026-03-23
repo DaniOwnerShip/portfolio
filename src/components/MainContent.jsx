@@ -2,12 +2,11 @@
 
 import { useState } from 'react'
 import About from './About'
-import ProyectsDisplay from './ProyectsDisplay'
+import ProjectsDisplay from './ProjectsDisplay'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Hero from './Hero'
 import Skills from './Skills'
-import CaseStudy from './CaseStudy'
 import ContactModal from './ContactModal'
 
 export default function MainContent({ data }) {
@@ -21,10 +20,9 @@ export default function MainContent({ data }) {
       />
       <main>
         <Hero onContactClick={() => setContactModalOpen(true)} />
-        <About />
+        <ProjectsDisplay />
         <Skills />
-        <ProyectsDisplay />
-        <CaseStudy />
+        <About />
       </main>
       <Footer data={data} />
       

@@ -17,13 +17,13 @@
 .imageWrapper::before {
   content: '';
   position: absolute;
-  top: -20px;
-  left: -20px;
-  right: 20px;
-  bottom: 20px;
-  border: 2px solid var(--accent);
+  top: -15px;
+  left: -15px;
+  right: 15px;
+  bottom: 15px;
+  border: 3px solid var(--accent);
   border-radius: var(--radius-lg);
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .image {

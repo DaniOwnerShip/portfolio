@@ -2,48 +2,49 @@ import styles from '@/styles/skills.module.css';
 
 const skillCategories = [
   {
-    name: 'Systems & Architecture',
-    icon: '🧠',
-    skills: [
-      'System Design',
-      'Distributed Systems',
-      'Event-Driven Architectures',
-      'Real-Time Systems',
-      'Industrial Software Architecture'
-    ]
-  },
-  {
-    name: 'Industrial Systems',
+    name: 'Industrial Control',
     icon: '🏭',
     skills: [
-      'PLC (Siemens, ABB)',
-      'SCADA / HMI Systems',
-      'Modbus / OPC UA',
-      'Ignition SCADA',
-      'WinCC',
-      'Industrial Control Systems'
+      'PLC (ABB, Siemens, Schneider)',
+      'SCADA (ABB, Ignition, WinCC)',
+      'HMI Development',
+      'Alarm Management',
+      'Process Control'
     ]
   },
   {
-    name: 'Software Engineering',
+    name: 'Industrial Data',
+    icon: '📊',
+    skills: [
+      'AVEVA PI System',
+      'Data Modeling',
+      'Event Frames',
+      'Tag Management',
+      'KPI Tracking', ,
+      'Excel VBA'
+    ]
+  },
+  {
+    name: 'OT/IT Integration',
+    icon: '🔗',
+    skills: [
+      'Modbus',
+      'OPC UA',
+      'PLC Integration',
+      'SCADA-Web Integration',
+      'Real-Time Data'
+    ]
+  },
+  {
+    name: 'Software Systems',
     icon: '💻',
     skills: [
-      'Node.js', 
-      'React / Next.js',
+      'Node.js',
+      'Next.js',
+      'React',
       'REST APIs',
-      'Backend Architecture',
-      'MongoDB / MySQL'
-    ]
-  },
-  {
-    name: 'Data & Intelligent Systems',
-    icon: '🤖',
-    skills: [
-      'Python',
-      'Data Processing',
-      'Machine Learning',
-      'TensorFlow / Keras',
-      'AI Systems Integration'
+      'WebSockets',
+      'Electron'
     ]
   },
   {
@@ -51,24 +52,25 @@ const skillCategories = [
     icon: '📡',
     skills: [
       'C / C++',
-      'Microcontrollers (PIC)',
-      'IoT Systems',
-      'Hardware Integration',
-      'Edge Systems'
+      'ESP32',
+      'PIC',
+      'Firmware',
+      'Sensor Integration'
     ]
   },
   {
-    name: 'Tools & Platforms',
-    icon: '🔧',
+    name: 'Data & AI',
+    icon: '🤖',
     skills: [
-      'Electron',
-      'Git',
-      'Windows Desktop Apps',
-      'Excel VBA',
-      'Blender'
+      'Python',
+      'Machine Learning',
+      'TensorFlow / Keras',
+      'Computer Vision',
+      'Data Processing'
     ]
   }
 ];
+
 export default function Skills() {
   return (
     <section className={styles.skills} id="skills">
@@ -78,18 +80,20 @@ export default function Skills() {
         <div className={styles.grid}>
           {skillCategories.map((category) => (
             <div key={category.name} className={styles.category}>
-              <div className={styles.categoryHeader}>
-                <span className={styles.icon}>{category.icon}</span>
-                <h3 className={styles.categoryName}>{category.name}</h3>
-              </div>
+              <h3 className={styles.categoryName}>
+                {category.icon}{category.name}
+              </h3>
               <ul className={styles.skillList}>
                 {category.skills.map((skill) => (
-                  <li key={skill} className={styles.skill}>{skill}</li>
+                  <li key={skill} className={styles.skill}>
+                    {skill}
+                  </li>
                 ))}
               </ul>
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

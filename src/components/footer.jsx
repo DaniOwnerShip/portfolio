@@ -21,7 +21,7 @@ export default function Footer({ data }) {
         <div className={styles.content}>
           <div className={styles.left}>
             <h3 className={styles.name}>Daniel Orcha</h3>
-            <p className={styles.tagline}>Industrial Software Developer</p>
+            <p className={styles.tagline}>Software Engineer</p>
           </div>
           
           <div className={styles.right}>
@@ -47,7 +47,7 @@ export default function Footer({ data }) {
         </div>
         
         <div className={styles.bottom}>
-          <p>&copy; {currentYear} Daniel Orcha. All rights reserved.</p>
+          <p>&copy; {currentYear}  DAOL ELECTRONICS&reg;. All rights reserved.</p>
         </div>
       </div>
     </footer>

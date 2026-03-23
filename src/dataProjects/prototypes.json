@@ -1,0 +1,106 @@
+[
+    {
+        "category": "Prototypes",
+        "subtitle": "Prototypes focused on industrial software and system integration",
+        "items": [
+            {
+                "name": "plc-gateway",
+                "title": "Real-Time PLC Data Gateway",
+                "type": "🔵 Prototype",
+                "description": {
+                    "summary": "Integration layer between PLC systems and web-based applications for real-time industrial data access.",
+                    "context": "Integration layer between industrial PLC systems and web-based monitoring tools.",
+                    "challenge": "Managing concurrent reads while keeping response times predictable and avoiding load on PLCs.",
+                    "solution": "Node.js backend with controlled polling strategy and Next.js frontend for structured data access.",
+                    "focus": "OT/IT Data Bridge"
+                },
+                "tags": [
+                    "Node.js",
+                    "Next.js",
+                    "Modbus",
+                    "Real-Time",
+                    "SCADA"
+                ],
+                "links": [
+                    {
+                        "label": "Frontend Code",
+                        "url": "https://github.com/DaniOwnerShip/client-modbus.git"
+                    },
+                    {
+                        "label": "Backend Code",
+                        "url": "https://github.com/DaniOwnerShip/server-modbus.git"
+                    }
+                ],
+                "image": {
+                    "url": "/resources/mb/modbus.jpg",
+                    "alt": "modbus plc"
+                }
+            },
+            {
+                "name": "scada",
+                "title": "Industrial Control Interface (SCADA Desktop System)",
+                "type": "🔵 Prototype",
+                "description": {
+                    "summary": "Desktop application for real-time control and monitoring of PLC systems via industrial communication protocols.",
+                    "context": "Development of a lightweight control interface for machine-level operations in industrial environments.",
+                    "challenge": "Ensuring safe command execution over unstable network communication with PLC devices.",
+                    "solution": "Built an Electron-based client with controlled state handling and asynchronous communication patterns.",
+                    "focus": "Control Safety & Communication Reliability"
+                },
+                "tags": [
+                    "SCADA",
+                    "PLC",
+                    "Modbus",
+                    "Electron",
+                    "Real-Time"
+                ],
+                "links": [
+                    {
+                        "label": "View Code",
+                        "url": "https://github.com/DaniOwnerShip/SCADATest.git"
+                    } 
+                ],
+                "image": {
+                    "url": "/resources/mb/electron.gif",
+                    "alt": "scada electron"
+                }
+            },
+            {
+                "name": "embedded",
+                "title": "Embedded & IoT Systems",
+                "type": "🔵 Prototype",
+                "description": {
+                    "summary": "Embedded and IoT systems development for sensing, control, and real-time data transmission over WiFi to cloud platforms.",
+                    "context": "Design and implementation of hardware-software systems integrating sensors, actuators, microcontrollers, and enclosure design with network connectivity.",
+                    "challenge": "Working under memory and processing constraints while ensuring reliable device behavior and stable communication over WiFi networks.",
+                    "solution": "Implemented optimized C/C++ firmware for sensor reading and actuator control, including WiFi connectivity (ESP32), data transmission to cloud platforms (ThingSpeak), and enclosure design using 3D modeling and printing.",
+                    "focus": "Embedded Control, IoT Connectivity & Edge Systems"
+                },
+                "tags": [
+                    "C/C++",
+                    "Embedded",
+                    "Microchip",
+                    "IoT",
+                    "PIC",
+                    "WiFi",
+                    "Cloud Integration",
+                    "3D Design & Printing"
+                ],
+                "links": [
+                    {
+                        "label": "View Code",
+                        "url": "https://github.com/DaniOwnerShip/LegacyProjectsMicrochips.git"
+                    },
+                    {
+                        "label": "🏞️ View Gallery",
+                        "url": "/gallery"
+                    }
+                ],
+                "image": {
+                    "url": "/gallery/21.jpg",
+                    "alt": "embedded iot"
+                }
+            }
+        ]
+    }
+]

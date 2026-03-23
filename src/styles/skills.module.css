@@ -9,51 +9,44 @@
   gap: 20px;
 }
 
-.category {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 20px;
-  transition: all 0.2s ease;
-}
-
 .category:hover {
   border-color: var(--accent);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
 
-.categoryHeader {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 14px;
-}
 
 .icon {
   font-size: 1.25rem;
 }
 
+.category {
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  padding: 7px;
+  transition: all 0.2s ease;
+}
+
 .categoryName {
   font-size: 1rem;
-  font-weight: 600;
   color: var(--text-primary);
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 .skillList {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .skill {
-  font-size: 0.813rem;
-  color: var(--text-secondary);
+  font-size: 0.8rem;
+  color: var(--text-primary);
   background: var(--accent-subtle);
   padding: 4px 10px;
-  border-radius: 20px;
+  border-radius: 999px;
+  font-weight: 500;
   transition: all 0.2s ease;
 }
 
@@ -66,12 +59,12 @@
   .skills {
     padding: 48px 0;
   }
-  
+
   .grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 12px;
   }
-  
+
   .category {
     padding: 16px;
   }

@@ -27,8 +27,8 @@ async function getGalleryImages() {
 }
 
 export const metadata = {
-  title: 'Gallery | Daniel Orcha',
-  description: 'Photo gallery showcasing projects and work',
+  title: 'Gallery',
+  description: 'Photo gallery Custom Embedded Systems',
 };
 
 export default async function GalleryPage() {

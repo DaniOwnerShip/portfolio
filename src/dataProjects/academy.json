@@ -1,0 +1,126 @@
+[
+    {
+        "category": "Engineering Background",
+        "subtitle": "Foundational projects in industrial automation and control systems",
+        "items": [
+            {
+                "name": "hydraulic",
+                "title": "Automated Hydraulic Press System",
+                "type": "⚪ Academy",
+                "description": {
+                    "summary": "Design of an automated hydraulic press system including coordinated multi-cylinder sequencing and control logic.",
+                    "context": "Automation of a hydraulic press process involving positioning, pressing, translation, and part ejection using multiple actuators.",
+                    "challenge": "Coordinating a complete operation cycle across several cylinders (A, B, C, D) while ensuring correct sequencing, safe transitions, and repeatable operation.",
+                    "solution": "Designed hydraulic and electrical systems and implemented sequential control logic using relay-based automation, defining the full operation cycle (A+ B+ B- A- C+ D+ D- C-) and ensuring proper synchronization between actuators.",
+                    "focus": "Sequential Control & Hydraulic Systems"
+                },
+                "tags": [
+                    "Hydraulics",
+                    "Sequential Logic",
+                    "Industrial Automation",
+                    "Control Systems",
+                    "Relay Logic"
+                ],
+                "links": [
+                    {
+                        "label": "View PDF",
+                        "url": "/docs/prensa_hidraulica_automatizada.pdf"
+                    }
+                ],
+                "image": {
+                    "url": "/resources/automatizacion/ph.jpg",
+                    "alt": "hydraulic press system"
+                }
+            },
+            {
+                "name": "electropneumatic",
+                "title": "Electropneumatic Filling and Sealing System",
+                "type": "⚪ Academy",
+                "description": {
+                    "summary": "Design and control of an electropneumatic system for container filling, sealing, and stamping operations.",
+                    "context": "Automated process involving filling, closing, and stamping of containers using pneumatic actuators, sensors, and timed sequences.",
+                    "challenge": "Coordinating multiple actuators (A, B, C, D), sensor inputs, and timing constraints to ensure correct sequencing of filling, sealing, and stamping operations.",
+                    "solution": "Designed the electropneumatic system and implemented control logic using both relay-based automation and PLC programming, integrating sensors, timers, and actuator control to manage the full operation cycle.",
+                    "focus": "Process Control & Electropneumatic Systems"
+                },
+                "tags": [
+                    "Pneumatics",
+                    "PLC",
+                    "Relay Logic",
+                    "Sensors",
+                    "Sequential Control",
+                    "Industrial Automation"
+                ],
+                "links": [
+                    {
+                        "label": "View PDF",
+                        "url": "/docs/maquina_electroneumatica_de_envasado.pdf"
+                    }
+                ],
+                "image": {
+                    "url": "/resources/automatizacion/envase.jpg",
+                    "alt": "electropneumatic system"
+                }
+            },
+            {
+                "name": "wincc-monitoring",
+                "title": "SCADA Monitoring and Control System (WinCC)",
+                "type": "⚪ Academy",
+                "description": {
+                    "summary": "Design of a SCADA system for monitoring and controlling a multi-pump installation with alarms and historical data.",
+                    "context": "Supervision and control of a three-pump system including automatic and manual operation modes, fault handling, and safety conditions.",
+                    "challenge": "Managing different operation modes (auto/manual), integrating fault detection, and ensuring reliable monitoring with alarms and historical tracking.",
+                    "solution": "Developed PLC control logic (Siemens S7-300) and implemented a WinCC SCADA interface with alarm management, historical data logging, and operator control for system supervision.",
+                    "focus": "SCADA Systems & Operational Monitoring"
+                },
+                "tags": [
+                    "WinCC",
+                    "SCADA",
+                    "PLC",
+                    "Siemens S7-300",
+                    "Alarms",
+                    "Historical Data"
+                ],
+                "links": [
+                    {
+                        "label": "View PDF",
+                        "url": "/docs/scada_control_bombas_wincc.pdf"
+                    }
+                ],
+                "image": {
+                    "url": "/resources/automatizacion/wcc.jpg",
+                    "alt": "wincc monitoring system"
+                }
+            },
+            {
+                "name": "robotics",
+                "title": "Robotic Palletizing System",
+                "type": "⚪ Academy",
+                "description": {
+                    "summary": "Design of an industrial robotic palletizing system for sorting and stacking two product types based on color.",
+                    "context": "Automation of a palletizing process where products arriving on a conveyor had to be identified, picked by a robot, and placed on the correct pallet according to type.",
+                    "challenge": "Coordinating product detection, robot handling, pallet status control, and process continuity while preventing unloading onto full pallets.",
+                    "solution": "Developed the control logic for robotic palletizing, managing product classification, pallet assignment, full-pallet detection, and operator reset conditions after pallet replacement.",
+                    "focus": "Robotics & Material Handling Automation"
+                },
+                "tags": [
+                    "Robotics",
+                    "Palletizing",
+                    "Industrial Automation",
+                    "Material Handling",
+                    "Process Logic"
+                ],
+                "links": [
+                    {
+                        "label": "View PDF",
+                        "url": "/docs/estacion_robotizada_de_clasificacion_y_paletizado.pdf"
+                    }
+                ],
+                "image": {
+                    "url": "/resources/automatizacion/r2.jpg",
+                    "alt": "robotic palletizing system"
+                }
+            }
+        ]
+    }
+]

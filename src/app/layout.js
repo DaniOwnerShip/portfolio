@@ -10,23 +10,39 @@ const inter = Inter({
 export const metadata = {
   metadataBase: new URL('https://portfoliodaol.vercel.app'),
   title: {
-    default: 'Daniel Orcha | Senior Software Engineer',
+    default: 'Daniel Orcha | Industrial Software Engineer',
     template: '%s | Daniel Orcha',
   },
-  description: 'Senior Software Engineer specializing in industrial automation, full-stack development, and bridging OT/IT systems.',
-  keywords: ['Software Engineer', 'Industrial Automation', 'Full Stack Developer', 'React', 'Next.js', 'PLC', 'SCADA'],
+  description:
+    'Industrial Software Engineer specialized in OT/IT systems, industrial automation, SCADA, PLC, and real-time software for industrial operations.',
+  keywords: [
+    'Daniel Orcha',
+    'Industrial Software Engineer',
+    'OT/IT',
+    'Industrial Automation',
+    'SCADA',
+    'PLC',
+    'Ignition',
+    'WinCC',
+    'AVEVA PI System',
+    'Industrial Software',
+    'Real-Time Systems',
+    'Industrial Data'
+  ],
   authors: [{ name: 'Daniel Orcha' }],
   openGraph: {
-    title: 'Daniel Orcha | Senior Software Engineer',
-    description: 'Senior Software Engineer specializing in industrial automation, full-stack development, and bridging OT/IT systems.',
+    title: 'Daniel Orcha | Industrial Software Engineer',
+    description:
+      'Industrial Software Engineer specialized in OT/IT systems, industrial automation, SCADA, PLC, and real-time software for industrial operations.',
     type: 'website',
     locale: 'es_ES',
     siteName: 'Daniel Orcha Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Daniel Orcha | Senior Software Engineer',
-    description: 'Senior Software Engineer specializing in industrial automation, full-stack development.',
+    title: 'Daniel Orcha | Industrial Software Engineer',
+    description:
+      'Industrial Software Engineer specialized in OT/IT systems, industrial automation, SCADA, PLC, and real-time software.',
   },
   robots: {
     index: true,

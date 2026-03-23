@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Lab",
+    "subtitle": "Exploration of AI and data-driven approaches with potential industrial application",
+    "items": [
+      {
+        "name": "screw-inspection",
+        "title": "Screw Quality Inspection System",
+        "type": "🟣 Lab",
+        "description": {
+          "summary": "Computer vision prototype for classifying screws as OK or defective in an industrial inspection scenario.",
+          "context": "Exploration of deep learning for visual quality control in manufacturing-like environments.",
+          "challenge": "Training a reliable classifier with limited data, class imbalance, and subtle visual defects.",
+          "solution": "Built a transfer learning pipeline with MobileNetV2, data augmentation, class balancing, and evaluation metrics focused on inspection performance.",
+          "focus": "Computer Vision for Industrial Inspection"
+        },
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "Computer Vision",
+          "Deep Learning",
+          "Industrial Inspection"
+        ],
+        "links": [
+          {
+            "label": "View Code",
+            "url": "https://github.com/DaniOwnerShip/AIImageClassifier.git"
+          }
+        ],
+        "image": {
+          "url": "/resources/ia/screwai.jpg",
+          "alt": "screw quality inspection"
+        }
+      }
+    ]
+  }
+]

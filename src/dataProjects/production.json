@@ -1,0 +1,115 @@
+[
+    {
+        "category": "Production Projects",
+        "subtitle": "Industrial systems and software deployed in real operational environments",
+        "items": [
+            {
+                "name": "traceability-system",
+                "title": "Industrial Traceability System (Vision + SCADA Integration)",
+                "type": "🟢 Production",
+                "description": {
+                    "summary": "Traceability system integrating vision inspection with Ignition SCADA for production line validation.",
+                    "context": "Manufacturing environment requiring component-level tracking and validation across multiple production stages with real-time operator feedback.",
+                    "challenge": "Handling inconsistent vision reads and synchronization issues between inspection systems and SCADA without interrupting production flow.",
+                    "solution": "Implemented synchronization logic between vision systems and Ignition SCADA, including retry handling, state management, and operator feedback through HMI interfaces.",
+                    "focus": "Real-Time Data Consistency & System Integration"
+                },
+                "tags": [
+                    "Traceability",
+                    "Vision Systems",
+                    "Ignition",
+                    "SCADA",
+                    "Industrial Integration",
+                    "Real-Time"
+                ],
+                "links": [],
+                "image": {
+                    "url": "/resources/automatizacion/trace.jpg",
+                    "alt": "Traceability system with SCADA integration"
+                }
+            },
+            {
+                "name": "pi-system",
+                "title": "Industrial Data Platform (AVEVA PI System)",
+                "type": "🟢 Production",
+                "description": {
+                    "summary": "Configuration of industrial time-series data systems for monitoring, analysis, and production performance tracking.",
+                    "context": "Centralized data collection from production assets, including tag management and integration from DCS systems via OPC paths.",
+                    "challenge": "Structuring raw time-series data into usable asset hierarchies and events while maintaining consistency and scalability across large tag databases.",
+                    "solution": "Configured and managed PI System infrastructure, including tag creation and management from DCS systems via OPC, AF modeling, Event Frames, and development of display.",
+                    "focus": "Industrial Data Modeling & Visualization"
+                },
+                "tags": [
+                    "AVEVA PI",
+                    "Data Historian",
+                    "Time Series",
+                    "Tag Management",
+                    "OPC Integration"
+                ],
+                "links": [],
+                "image": {
+                    "url": "/resources/pi/pi.png",
+                    "alt": "pi system"
+                }
+            },
+            {
+                "name": "shift-report-system",
+                "title": "Shift Report Management System",
+                "type": "🟢 Production",
+                "description": {
+                    "summary": "Web-based system for managing shift reports with real-time collaboration and document integrity validation.",
+                    "context": "Industrial environment requiring reliable transfer of operational information between work shifts.",
+                    "challenge": "Avoiding conflicting edits, ensuring real-time coordination between operators, and guaranteeing document integrity once reports are finalized.",
+                    "solution": "Developed a full-stack application with real-time communication (WebSockets), document reservation system, and checksum-based validation to ensure integrity and traceability of reports.",
+                    "focus": "Operational Software Systems"
+                },
+                "tags": [
+                    "Node.js",
+                    "Next.js",
+                    "WebSockets",
+                    "Real-Time",
+                    "Operational Software",
+                    "Data Integrity"
+                ],
+                "links": [
+                    {
+                        "label": "Fronted Code",
+                        "url": "https://github.com/DaniOwnerShip/dataCenter.git"
+                    },
+                    {
+                        "label": "Backend Code",
+                        "url": "https://github.com/DaniOwnerShip/serverCDT.git"
+                    }
+                ],
+                "image": {
+                    "url": "/resources/web/cdt.gif",
+                    "alt": "shift report system"
+                }
+            },
+            {
+                "name": "excel-vba",
+                "title": "Operational Data Tools (Excel Automation)",
+                "type": "🟢 Production",
+                "description": {
+                    "summary": "Excel-based automation tools for operational reporting and production tracking.",
+                    "context": "Production environments where manual reporting was still required.",
+                    "challenge": "Reducing manual errors and repetitive data processing tasks.",
+                    "solution": "Built VBA macros to automate data collection, reporting workflows, and KPI tracking.",
+                    "focus": "Operational Automation"
+                },
+                "tags": [
+                    "Excel",
+                    "VBA",
+                    "Operational Data",
+                    "Reporting",
+                    "Industrial Workflows"
+                ],
+                "links": [],
+                "image": {
+                    "url": "/resources/excel/excel.png",
+                    "alt": "excel vba"
+                }
+            }
+        ]
+    }
+]
